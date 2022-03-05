@@ -1,0 +1,39 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ADC_CHANNEL_MAGIC	OscillatorConfig.h	11;"	d
+ADC_CHANNEL_SELECT	OscillatorConfig.h	17;"	d
+ADC_CHANNEL_SELECT	OscillatorConfig.h	19;"	d
+ADC_CHANNEL_SELECT	OscillatorConfig.h	21;"	d
+ADC_CHANNEL_SELECT	OscillatorConfig.h	23;"	d
+ADC_CHANNEL_SELECT	OscillatorConfig.h	25;"	d
+ADC_CHANNEL_SELECT	OscillatorConfig.h	27;"	d
+ADC_CHANNEL_SELECT	OscillatorConfig.h	29;"	d
+ADC_CHANNEL_SELECT	OscillatorConfig.h	31;"	d
+ADC_PRESCALE_MAGIC	OscillatorConfig.h	12;"	d
+ADC_PRESCALE_SELECT	OscillatorConfig.h	41;"	d
+ADC_PRESCALE_SELECT	OscillatorConfig.h	43;"	d
+ADC_PRESCALE_SELECT	OscillatorConfig.h	45;"	d
+ADC_PRESCALE_SELECT	OscillatorConfig.h	47;"	d
+ADC_PRESCALE_SELECT	OscillatorConfig.h	49;"	d
+ADC_PRESCALE_SELECT	OscillatorConfig.h	51;"	d
+ADC_PRESCALE_SELECT	OscillatorConfig.h	53;"	d
+ADC_PRESCALE_SELECT	OscillatorConfig.h	55;"	d
+ADC_REF_SELECT	OscillatorConfig.h	10;"	d
+CC	Makefile	/^CC			= avr-gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS		= -pipe -O1 -flto -ffunction-sections -fdata-sections -mmcu=${DEVICE} $/;"	m
+DEVICE	Makefile	/^DEVICE		= atmega328p$/;"	m
+FCPU	Makefile	/^FCPU		= 16000000$/;"	m
+ISR	Oscillator.c	/^ISR(TIMER1_COMPA_vect)$/;"	f
+NCO_ADCSetup	Oscillator.c	/^void NCO_ADCSetup (void)$/;"	f
+NCO_Timer1Setup	Oscillator.c	/^static void NCO_Timer1Setup (void)$/;"	f	file:
+OBJCOPY	Makefile	/^OBJCOPY		= avr-objcopy$/;"	m
+OSCILLATOR_H	Oscillator.h	8;"	d
+PORT	Makefile	/^PORT		= \/dev\/ttyUSB0$/;"	m
+PROG	Makefile	/^PROG		= Oscillator$/;"	m
+TIMER1_COMPARE_PERIOD	Oscillator.h	15;"	d
+TIMER1_PRESCALE_SELECT	Oscillator.h	16;"	d
+main	Oscillator.c	/^int main (void) $/;"	f
