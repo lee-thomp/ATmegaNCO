@@ -7,6 +7,15 @@
 
 #include "avr_debug/avr8-stub/avr8-stub.h"
 
+/* ============= Module Typedefs ============ */ 
+typedef struct
+{
+	uint8_t		note_Voct;
+	uint8_t		phaseIncrement;
+} oscillatorVoice_t;
+
+/* ============ Module Functions ============ */ 
+
 /**
  * @brief	Perform setup of ADC peripheral for samplign 1v/Oct tuning voltage
  *
@@ -55,9 +64,15 @@ static void NCO_Timer1Setup (void)
  */
 static void NCO_Timer0Timer2Setup (void)
 {
-	/* Set both channels for toggling on compare, leave WGM0x at 0 */
+	/* Enable pin toggle output for PWM timers */
+	DDRD |= (1 << PD6) | (1 << PD5);
+
+	/* Set both channels for toggling on compare, 
+	 * leave WGM0x at 0 for normal PWM,
+	 * set compare modes for pin toggle,
+	 * set prescaler to 1 (no prescaling) */
 	TCCR0A	|= (1 << COM0A0) | (1 << COM0B0);
-	TCCR0B	|= TIMER0_PRESCALE_SELECT;
+	TCCR0B	|= (1 << CS00);
 	/* TODO: Investigate output timer prescaling */
 }
 
@@ -70,11 +85,19 @@ static void NCO_Timer0Timer2Setup (void)
 ISR(TIMER1_COMPA_vect)
 {
 	/* TODO: Figure out general calculation for all waveforms, define wave data struct */
-	/* Initialise ISR-only variables */
-	static outputSample = 0x00u;
 
-	uint8_t note_Voct = ADCH >> 2u;
+	/* Initialise synthesiser voice */
+	static oscillatorVoice_t voice = VOICE_DEFAULTS;
 
+	/* Sample ADC tuning voltage, shift down to approximate semitones */
+	voice.note_Voct = ADCH >> 2u;
+
+	voice.phaseIncrement = 1u;
+
+	/* Increment oscillator phase index */
+	OCR0A += voice.phaseIncrement;
+
+	/* Enable ADC for next sample period */
 	ADCSRA |= (1 << ADSC);
 }
 
@@ -83,8 +106,9 @@ int main (void)
 	/* GDB stub init */
 	debug_init();
 
-	/* Set up - disable interrupts */
+	/* Set up peripherals */
 	NCO_Timer1Setup();
+	NCO_Timer0Timer2Setup();
 	NCO_ADCSetup();
 
 	/* Do nothing outside ISR */

@@ -4,6 +4,7 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ADC_CHANNEL_ERROR	avr_debug/bootloader/optiboot/src/stk500.h	8;"	d
 ADC_CHANNEL_MAGIC	OscillatorConfig.h	11;"	d
 ADC_CHANNEL_SELECT	OscillatorConfig.h	17;"	d
 ADC_CHANNEL_SELECT	OscillatorConfig.h	19;"	d
@@ -13,6 +14,7 @@ ADC_CHANNEL_SELECT	OscillatorConfig.h	25;"	d
 ADC_CHANNEL_SELECT	OscillatorConfig.h	27;"	d
 ADC_CHANNEL_SELECT	OscillatorConfig.h	29;"	d
 ADC_CHANNEL_SELECT	OscillatorConfig.h	31;"	d
+ADC_MEASURE_OK	avr_debug/bootloader/optiboot/src/stk500.h	9;"	d
 ADC_PRESCALE_MAGIC	OscillatorConfig.h	12;"	d
 ADC_PRESCALE_SELECT	OscillatorConfig.h	41;"	d
 ADC_PRESCALE_SELECT	OscillatorConfig.h	43;"	d
@@ -23,17 +25,954 @@ ADC_PRESCALE_SELECT	OscillatorConfig.h	51;"	d
 ADC_PRESCALE_SELECT	OscillatorConfig.h	53;"	d
 ADC_PRESCALE_SELECT	OscillatorConfig.h	55;"	d
 ADC_REF_SELECT	OscillatorConfig.h	10;"	d
+APP_API_H_	avr_debug/arduino/library/avr-debugger/src/app_api.h	18;"	d
+APP_API_H_	avr_debug/avr8-stub/app_api.h	18;"	d
+ARRAY_SIZE	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	344;"	d	file:
+ARRAY_SIZE	avr_debug/avr8-stub/avr8-stub.c	344;"	d	file:
+ASM_GOTO	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	813;"	d	file:
+ASM_GOTO	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	815;"	d	file:
+ASM_GOTO	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	817;"	d	file:
+ASM_GOTO	avr_debug/avr8-stub/avr8-stub.c	813;"	d	file:
+ASM_GOTO	avr_debug/avr8-stub/avr8-stub.c	815;"	d	file:
+ASM_GOTO	avr_debug/avr8-stub/avr8-stub.c	817;"	d	file:
+AVR8_BREAKPOINT_MODE	avr_debug/arduino/library/avr-debugger/src/avr8-stub.h	118;"	d
+AVR8_BREAKPOINT_MODE	avr_debug/avr8-stub/avr8-stub.h	118;"	d
+AVR8_LOAD_SUPPORT	avr_debug/arduino/library/avr-debugger/src/avr8-stub.h	212;"	d
+AVR8_LOAD_SUPPORT	avr_debug/avr8-stub/avr8-stub.h	212;"	d
+AVR8_MAX_BREAKS	avr_debug/arduino/library/avr-debugger/src/avr8-stub.h	228;"	d
+AVR8_MAX_BREAKS	avr_debug/arduino/library/avr-debugger/src/avr8-stub.h	230;"	d
+AVR8_MAX_BREAKS	avr_debug/avr8-stub/avr8-stub.h	228;"	d
+AVR8_MAX_BREAKS	avr_debug/avr8-stub/avr8-stub.h	230;"	d
+AVR8_MAX_BUFF	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	355;"	d	file:
+AVR8_MAX_BUFF	avr_debug/avr8-stub/avr8-stub.c	355;"	d	file:
+AVR8_MAX_BUFF	avr_debug/bootloader/optiboot/src/stub.c	47;"	d	file:
+AVR8_MAX_BUFF_HEX	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	352;"	d	file:
+AVR8_MAX_BUFF_HEX	avr_debug/avr8-stub/avr8-stub.c	352;"	d	file:
+AVR8_SWINT_DDR	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	216;"	d	file:
+AVR8_SWINT_DDR	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	224;"	d	file:
+AVR8_SWINT_DDR	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	232;"	d	file:
+AVR8_SWINT_DDR	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	240;"	d	file:
+AVR8_SWINT_DDR	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	248;"	d	file:
+AVR8_SWINT_DDR	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	256;"	d	file:
+AVR8_SWINT_DDR	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	264;"	d	file:
+AVR8_SWINT_DDR	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	272;"	d	file:
+AVR8_SWINT_DDR	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	287;"	d	file:
+AVR8_SWINT_DDR	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	295;"	d	file:
+AVR8_SWINT_DDR	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	303;"	d	file:
+AVR8_SWINT_DDR	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	318;"	d	file:
+AVR8_SWINT_DDR	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	326;"	d	file:
+AVR8_SWINT_DDR	avr_debug/avr8-stub/avr8-stub.c	216;"	d	file:
+AVR8_SWINT_DDR	avr_debug/avr8-stub/avr8-stub.c	224;"	d	file:
+AVR8_SWINT_DDR	avr_debug/avr8-stub/avr8-stub.c	232;"	d	file:
+AVR8_SWINT_DDR	avr_debug/avr8-stub/avr8-stub.c	240;"	d	file:
+AVR8_SWINT_DDR	avr_debug/avr8-stub/avr8-stub.c	248;"	d	file:
+AVR8_SWINT_DDR	avr_debug/avr8-stub/avr8-stub.c	256;"	d	file:
+AVR8_SWINT_DDR	avr_debug/avr8-stub/avr8-stub.c	264;"	d	file:
+AVR8_SWINT_DDR	avr_debug/avr8-stub/avr8-stub.c	272;"	d	file:
+AVR8_SWINT_DDR	avr_debug/avr8-stub/avr8-stub.c	287;"	d	file:
+AVR8_SWINT_DDR	avr_debug/avr8-stub/avr8-stub.c	295;"	d	file:
+AVR8_SWINT_DDR	avr_debug/avr8-stub/avr8-stub.c	303;"	d	file:
+AVR8_SWINT_DDR	avr_debug/avr8-stub/avr8-stub.c	318;"	d	file:
+AVR8_SWINT_DDR	avr_debug/avr8-stub/avr8-stub.c	326;"	d	file:
+AVR8_SWINT_EICR	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	215;"	d	file:
+AVR8_SWINT_EICR	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	223;"	d	file:
+AVR8_SWINT_EICR	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	231;"	d	file:
+AVR8_SWINT_EICR	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	239;"	d	file:
+AVR8_SWINT_EICR	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	247;"	d	file:
+AVR8_SWINT_EICR	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	255;"	d	file:
+AVR8_SWINT_EICR	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	263;"	d	file:
+AVR8_SWINT_EICR	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	271;"	d	file:
+AVR8_SWINT_EICR	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	286;"	d	file:
+AVR8_SWINT_EICR	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	294;"	d	file:
+AVR8_SWINT_EICR	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	302;"	d	file:
+AVR8_SWINT_EICR	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	317;"	d	file:
+AVR8_SWINT_EICR	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	325;"	d	file:
+AVR8_SWINT_EICR	avr_debug/avr8-stub/avr8-stub.c	215;"	d	file:
+AVR8_SWINT_EICR	avr_debug/avr8-stub/avr8-stub.c	223;"	d	file:
+AVR8_SWINT_EICR	avr_debug/avr8-stub/avr8-stub.c	231;"	d	file:
+AVR8_SWINT_EICR	avr_debug/avr8-stub/avr8-stub.c	239;"	d	file:
+AVR8_SWINT_EICR	avr_debug/avr8-stub/avr8-stub.c	247;"	d	file:
+AVR8_SWINT_EICR	avr_debug/avr8-stub/avr8-stub.c	255;"	d	file:
+AVR8_SWINT_EICR	avr_debug/avr8-stub/avr8-stub.c	263;"	d	file:
+AVR8_SWINT_EICR	avr_debug/avr8-stub/avr8-stub.c	271;"	d	file:
+AVR8_SWINT_EICR	avr_debug/avr8-stub/avr8-stub.c	286;"	d	file:
+AVR8_SWINT_EICR	avr_debug/avr8-stub/avr8-stub.c	294;"	d	file:
+AVR8_SWINT_EICR	avr_debug/avr8-stub/avr8-stub.c	302;"	d	file:
+AVR8_SWINT_EICR	avr_debug/avr8-stub/avr8-stub.c	317;"	d	file:
+AVR8_SWINT_EICR	avr_debug/avr8-stub/avr8-stub.c	325;"	d	file:
+AVR8_SWINT_INTMASK	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	213;"	d	file:
+AVR8_SWINT_INTMASK	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	221;"	d	file:
+AVR8_SWINT_INTMASK	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	229;"	d	file:
+AVR8_SWINT_INTMASK	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	237;"	d	file:
+AVR8_SWINT_INTMASK	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	245;"	d	file:
+AVR8_SWINT_INTMASK	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	253;"	d	file:
+AVR8_SWINT_INTMASK	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	261;"	d	file:
+AVR8_SWINT_INTMASK	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	269;"	d	file:
+AVR8_SWINT_INTMASK	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	276;"	d	file:
+AVR8_SWINT_INTMASK	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	284;"	d	file:
+AVR8_SWINT_INTMASK	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	292;"	d	file:
+AVR8_SWINT_INTMASK	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	300;"	d	file:
+AVR8_SWINT_INTMASK	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	307;"	d	file:
+AVR8_SWINT_INTMASK	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	315;"	d	file:
+AVR8_SWINT_INTMASK	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	323;"	d	file:
+AVR8_SWINT_INTMASK	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	330;"	d	file:
+AVR8_SWINT_INTMASK	avr_debug/avr8-stub/avr8-stub.c	213;"	d	file:
+AVR8_SWINT_INTMASK	avr_debug/avr8-stub/avr8-stub.c	221;"	d	file:
+AVR8_SWINT_INTMASK	avr_debug/avr8-stub/avr8-stub.c	229;"	d	file:
+AVR8_SWINT_INTMASK	avr_debug/avr8-stub/avr8-stub.c	237;"	d	file:
+AVR8_SWINT_INTMASK	avr_debug/avr8-stub/avr8-stub.c	245;"	d	file:
+AVR8_SWINT_INTMASK	avr_debug/avr8-stub/avr8-stub.c	253;"	d	file:
+AVR8_SWINT_INTMASK	avr_debug/avr8-stub/avr8-stub.c	261;"	d	file:
+AVR8_SWINT_INTMASK	avr_debug/avr8-stub/avr8-stub.c	269;"	d	file:
+AVR8_SWINT_INTMASK	avr_debug/avr8-stub/avr8-stub.c	276;"	d	file:
+AVR8_SWINT_INTMASK	avr_debug/avr8-stub/avr8-stub.c	284;"	d	file:
+AVR8_SWINT_INTMASK	avr_debug/avr8-stub/avr8-stub.c	292;"	d	file:
+AVR8_SWINT_INTMASK	avr_debug/avr8-stub/avr8-stub.c	300;"	d	file:
+AVR8_SWINT_INTMASK	avr_debug/avr8-stub/avr8-stub.c	307;"	d	file:
+AVR8_SWINT_INTMASK	avr_debug/avr8-stub/avr8-stub.c	315;"	d	file:
+AVR8_SWINT_INTMASK	avr_debug/avr8-stub/avr8-stub.c	323;"	d	file:
+AVR8_SWINT_INTMASK	avr_debug/avr8-stub/avr8-stub.c	330;"	d	file:
+AVR8_SWINT_PIN	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	212;"	d	file:
+AVR8_SWINT_PIN	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	220;"	d	file:
+AVR8_SWINT_PIN	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	228;"	d	file:
+AVR8_SWINT_PIN	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	236;"	d	file:
+AVR8_SWINT_PIN	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	244;"	d	file:
+AVR8_SWINT_PIN	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	252;"	d	file:
+AVR8_SWINT_PIN	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	260;"	d	file:
+AVR8_SWINT_PIN	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	268;"	d	file:
+AVR8_SWINT_PIN	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	283;"	d	file:
+AVR8_SWINT_PIN	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	291;"	d	file:
+AVR8_SWINT_PIN	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	299;"	d	file:
+AVR8_SWINT_PIN	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	314;"	d	file:
+AVR8_SWINT_PIN	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	322;"	d	file:
+AVR8_SWINT_PIN	avr_debug/avr8-stub/avr8-stub.c	212;"	d	file:
+AVR8_SWINT_PIN	avr_debug/avr8-stub/avr8-stub.c	220;"	d	file:
+AVR8_SWINT_PIN	avr_debug/avr8-stub/avr8-stub.c	228;"	d	file:
+AVR8_SWINT_PIN	avr_debug/avr8-stub/avr8-stub.c	236;"	d	file:
+AVR8_SWINT_PIN	avr_debug/avr8-stub/avr8-stub.c	244;"	d	file:
+AVR8_SWINT_PIN	avr_debug/avr8-stub/avr8-stub.c	252;"	d	file:
+AVR8_SWINT_PIN	avr_debug/avr8-stub/avr8-stub.c	260;"	d	file:
+AVR8_SWINT_PIN	avr_debug/avr8-stub/avr8-stub.c	268;"	d	file:
+AVR8_SWINT_PIN	avr_debug/avr8-stub/avr8-stub.c	283;"	d	file:
+AVR8_SWINT_PIN	avr_debug/avr8-stub/avr8-stub.c	291;"	d	file:
+AVR8_SWINT_PIN	avr_debug/avr8-stub/avr8-stub.c	299;"	d	file:
+AVR8_SWINT_PIN	avr_debug/avr8-stub/avr8-stub.c	314;"	d	file:
+AVR8_SWINT_PIN	avr_debug/avr8-stub/avr8-stub.c	322;"	d	file:
+AVR8_SWINT_PORT	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	217;"	d	file:
+AVR8_SWINT_PORT	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	225;"	d	file:
+AVR8_SWINT_PORT	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	233;"	d	file:
+AVR8_SWINT_PORT	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	241;"	d	file:
+AVR8_SWINT_PORT	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	249;"	d	file:
+AVR8_SWINT_PORT	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	257;"	d	file:
+AVR8_SWINT_PORT	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	265;"	d	file:
+AVR8_SWINT_PORT	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	273;"	d	file:
+AVR8_SWINT_PORT	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	288;"	d	file:
+AVR8_SWINT_PORT	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	296;"	d	file:
+AVR8_SWINT_PORT	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	304;"	d	file:
+AVR8_SWINT_PORT	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	319;"	d	file:
+AVR8_SWINT_PORT	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	327;"	d	file:
+AVR8_SWINT_PORT	avr_debug/avr8-stub/avr8-stub.c	217;"	d	file:
+AVR8_SWINT_PORT	avr_debug/avr8-stub/avr8-stub.c	225;"	d	file:
+AVR8_SWINT_PORT	avr_debug/avr8-stub/avr8-stub.c	233;"	d	file:
+AVR8_SWINT_PORT	avr_debug/avr8-stub/avr8-stub.c	241;"	d	file:
+AVR8_SWINT_PORT	avr_debug/avr8-stub/avr8-stub.c	249;"	d	file:
+AVR8_SWINT_PORT	avr_debug/avr8-stub/avr8-stub.c	257;"	d	file:
+AVR8_SWINT_PORT	avr_debug/avr8-stub/avr8-stub.c	265;"	d	file:
+AVR8_SWINT_PORT	avr_debug/avr8-stub/avr8-stub.c	273;"	d	file:
+AVR8_SWINT_PORT	avr_debug/avr8-stub/avr8-stub.c	288;"	d	file:
+AVR8_SWINT_PORT	avr_debug/avr8-stub/avr8-stub.c	296;"	d	file:
+AVR8_SWINT_PORT	avr_debug/avr8-stub/avr8-stub.c	304;"	d	file:
+AVR8_SWINT_PORT	avr_debug/avr8-stub/avr8-stub.c	319;"	d	file:
+AVR8_SWINT_PORT	avr_debug/avr8-stub/avr8-stub.c	327;"	d	file:
+AVR8_SWINT_SC	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	214;"	d	file:
+AVR8_SWINT_SC	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	222;"	d	file:
+AVR8_SWINT_SC	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	230;"	d	file:
+AVR8_SWINT_SC	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	238;"	d	file:
+AVR8_SWINT_SC	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	246;"	d	file:
+AVR8_SWINT_SC	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	254;"	d	file:
+AVR8_SWINT_SC	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	262;"	d	file:
+AVR8_SWINT_SC	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	270;"	d	file:
+AVR8_SWINT_SC	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	285;"	d	file:
+AVR8_SWINT_SC	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	293;"	d	file:
+AVR8_SWINT_SC	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	301;"	d	file:
+AVR8_SWINT_SC	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	316;"	d	file:
+AVR8_SWINT_SC	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	324;"	d	file:
+AVR8_SWINT_SC	avr_debug/avr8-stub/avr8-stub.c	214;"	d	file:
+AVR8_SWINT_SC	avr_debug/avr8-stub/avr8-stub.c	222;"	d	file:
+AVR8_SWINT_SC	avr_debug/avr8-stub/avr8-stub.c	230;"	d	file:
+AVR8_SWINT_SC	avr_debug/avr8-stub/avr8-stub.c	238;"	d	file:
+AVR8_SWINT_SC	avr_debug/avr8-stub/avr8-stub.c	246;"	d	file:
+AVR8_SWINT_SC	avr_debug/avr8-stub/avr8-stub.c	254;"	d	file:
+AVR8_SWINT_SC	avr_debug/avr8-stub/avr8-stub.c	262;"	d	file:
+AVR8_SWINT_SC	avr_debug/avr8-stub/avr8-stub.c	270;"	d	file:
+AVR8_SWINT_SC	avr_debug/avr8-stub/avr8-stub.c	285;"	d	file:
+AVR8_SWINT_SC	avr_debug/avr8-stub/avr8-stub.c	293;"	d	file:
+AVR8_SWINT_SC	avr_debug/avr8-stub/avr8-stub.c	301;"	d	file:
+AVR8_SWINT_SC	avr_debug/avr8-stub/avr8-stub.c	316;"	d	file:
+AVR8_SWINT_SC	avr_debug/avr8-stub/avr8-stub.c	324;"	d	file:
+AVR8_SWINT_SOURCE	avr_debug/arduino/library/avr-debugger/src/avr8-stub.h	194;"	d
+AVR8_SWINT_SOURCE	avr_debug/avr8-stub/avr8-stub.h	194;"	d
+AVR8_SWINT_VECT	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	218;"	d	file:
+AVR8_SWINT_VECT	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	226;"	d	file:
+AVR8_SWINT_VECT	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	234;"	d	file:
+AVR8_SWINT_VECT	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	242;"	d	file:
+AVR8_SWINT_VECT	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	250;"	d	file:
+AVR8_SWINT_VECT	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	258;"	d	file:
+AVR8_SWINT_VECT	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	266;"	d	file:
+AVR8_SWINT_VECT	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	274;"	d	file:
+AVR8_SWINT_VECT	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	277;"	d	file:
+AVR8_SWINT_VECT	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	289;"	d	file:
+AVR8_SWINT_VECT	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	297;"	d	file:
+AVR8_SWINT_VECT	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	305;"	d	file:
+AVR8_SWINT_VECT	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	308;"	d	file:
+AVR8_SWINT_VECT	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	320;"	d	file:
+AVR8_SWINT_VECT	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	328;"	d	file:
+AVR8_SWINT_VECT	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	331;"	d	file:
+AVR8_SWINT_VECT	avr_debug/avr8-stub/avr8-stub.c	218;"	d	file:
+AVR8_SWINT_VECT	avr_debug/avr8-stub/avr8-stub.c	226;"	d	file:
+AVR8_SWINT_VECT	avr_debug/avr8-stub/avr8-stub.c	234;"	d	file:
+AVR8_SWINT_VECT	avr_debug/avr8-stub/avr8-stub.c	242;"	d	file:
+AVR8_SWINT_VECT	avr_debug/avr8-stub/avr8-stub.c	250;"	d	file:
+AVR8_SWINT_VECT	avr_debug/avr8-stub/avr8-stub.c	258;"	d	file:
+AVR8_SWINT_VECT	avr_debug/avr8-stub/avr8-stub.c	266;"	d	file:
+AVR8_SWINT_VECT	avr_debug/avr8-stub/avr8-stub.c	274;"	d	file:
+AVR8_SWINT_VECT	avr_debug/avr8-stub/avr8-stub.c	277;"	d	file:
+AVR8_SWINT_VECT	avr_debug/avr8-stub/avr8-stub.c	289;"	d	file:
+AVR8_SWINT_VECT	avr_debug/avr8-stub/avr8-stub.c	297;"	d	file:
+AVR8_SWINT_VECT	avr_debug/avr8-stub/avr8-stub.c	305;"	d	file:
+AVR8_SWINT_VECT	avr_debug/avr8-stub/avr8-stub.c	308;"	d	file:
+AVR8_SWINT_VECT	avr_debug/avr8-stub/avr8-stub.c	320;"	d	file:
+AVR8_SWINT_VECT	avr_debug/avr8-stub/avr8-stub.c	328;"	d	file:
+AVR8_SWINT_VECT	avr_debug/avr8-stub/avr8-stub.c	331;"	d	file:
+AVR8_USE_TIMER0_INSTEAD_OF_WDT	avr_debug/arduino/library/avr-debugger/src/avr8-stub.h	138;"	d
+AVR8_USE_TIMER0_INSTEAD_OF_WDT	avr_debug/arduino/library/avr-debugger/src/avr8-stub.h	141;"	d
+AVR8_USE_TIMER0_INSTEAD_OF_WDT	avr_debug/arduino/library/avr-debugger/src/avr8-stub.h	142;"	d
+AVR8_USE_TIMER0_INSTEAD_OF_WDT	avr_debug/avr8-stub/avr8-stub.h	138;"	d
+AVR8_USE_TIMER0_INSTEAD_OF_WDT	avr_debug/avr8-stub/avr8-stub.h	141;"	d
+AVR8_USE_TIMER0_INSTEAD_OF_WDT	avr_debug/avr8-stub/avr8-stub.h	142;"	d
+AVRDBG_BOOT_VERSION_MAJOR	avr_debug/bootloader/optiboot/src/bootapi.c	62;"	d	file:
+AVRDBG_BOOT_VERSION_MINOR	avr_debug/bootloader/optiboot/src/bootapi.c	63;"	d	file:
+AVR_DEBUGGER_H_	avr_debug/arduino/library/avr-debugger/src/avr_debugger.h	5;"	d
+AVR_DEBUGGER_H_	avr_debug/avr8-stub/avr_debugger.h	5;"	d
+Address_t	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	/^typedef uint16_t Address_t;$/;"	t	file:
+Address_t	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	/^typedef uint32_t Address_t;$/;"	t	file:
+Address_t	avr_debug/avr8-stub/avr8-stub.c	/^typedef uint16_t Address_t;$/;"	t	file:
+Address_t	avr_debug/avr8-stub/avr8-stub.c	/^typedef uint32_t Address_t;$/;"	t	file:
+BAUD_ACTUAL	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	164;"	d	file:
+BAUD_ACTUAL	avr_debug/avr8-stub/avr8-stub.c	164;"	d	file:
+BAUD_ERROR	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	168;"	d	file:
+BAUD_ERROR	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	175;"	d	file:
+BAUD_ERROR	avr_debug/avr8-stub/avr8-stub.c	168;"	d	file:
+BAUD_ERROR	avr_debug/avr8-stub/avr8-stub.c	175;"	d	file:
+BAUD_RATE	avr_debug/bootloader/optiboot/src/optiboot.c	250;"	d	file:
+BAUD_RATE	avr_debug/bootloader/optiboot/src/optiboot.c	256;"	d	file:
+BAUD_RATE	avr_debug/bootloader/optiboot/src/optiboot.c	258;"	d	file:
+BAUD_RATE	avr_debug/bootloader/optiboot/src/optiboot.c	260;"	d	file:
+BAUD_RATE	avr_debug/bootloader/optiboot/src/optiboot.c	262;"	d	file:
+BLB01	avr_debug/bootloader/optiboot/src/boot.h	165;"	d
+BLB02	avr_debug/bootloader/optiboot/src/boot.h	164;"	d
+BLB11	avr_debug/bootloader/optiboot/src/boot.h	163;"	d
+BLB12	avr_debug/bootloader/optiboot/src/boot.h	162;"	d
+BOOTAPI_H_	avr_debug/bootloader/optiboot/src/bootapi.h	18;"	d
+BOOTLOADER_SECTION	avr_debug/bootloader/optiboot/src/boot.h	145;"	d
+BOOT_API_VERSION	avr_debug/arduino/library/avr-debugger/src/app_api.h	34;"	d
+BOOT_API_VERSION	avr_debug/avr8-stub/app_api.h	34;"	d
+BOOT_API_VERSION	avr_debug/bootloader/optiboot/src/bootapi.c	67;"	d	file:
+BOOT_ERROR	avr_debug/arduino/library/avr-debugger/src/app_api.h	28;"	d
+BOOT_ERROR	avr_debug/avr8-stub/app_api.h	28;"	d
+BOOT_FUNCTION_INVALID	avr_debug/arduino/library/avr-debugger/src/app_api.h	29;"	d
+BOOT_FUNCTION_INVALID	avr_debug/avr8-stub/app_api.h	29;"	d
+BOOT_ID_INVALID	avr_debug/arduino/library/avr-debugger/src/app_api.h	31;"	d
+BOOT_ID_INVALID	avr_debug/avr8-stub/app_api.h	31;"	d
+BOOT_OK	avr_debug/arduino/library/avr-debugger/src/app_api.h	27;"	d
+BOOT_OK	avr_debug/avr8-stub/app_api.h	27;"	d
+BOOT_VERSION_INVALID	avr_debug/arduino/library/avr-debugger/src/app_api.h	30;"	d
+BOOT_VERSION_INVALID	avr_debug/avr8-stub/app_api.h	30;"	d
 CC	Makefile	/^CC			= avr-gcc$/;"	m
 CFLAGS	Makefile	/^CFLAGS		= -pipe -O1 -flto -ffunction-sections -fdata-sections -mmcu=${DEVICE} $/;"	m
+CRC_EOP	avr_debug/bootloader/optiboot/src/stk500.h	12;"	d
+DBG_EXEC	avr_debug/arduino/library/avr-debugger/src/avr_debugger.h	19;"	d
+DBG_EXEC	avr_debug/arduino/library/avr-debugger/src/avr_debugger.h	21;"	d
+DBG_EXEC	avr_debug/avr8-stub/avr_debugger.h	19;"	d
+DBG_EXEC	avr_debug/avr8-stub/avr_debugger.h	21;"	d
 DEVICE	Makefile	/^DEVICE		= atmega328p$/;"	m
+DRV_DEBUG_H_	avr_debug/arduino/library/avr-debugger/src/avr8-stub.h	77;"	d
+DRV_DEBUG_H_	avr_debug/avr8-stub/avr8-stub.h	77;"	d
+END	avr_debug/hub4com-2.1.0.0-386/com2tcp-rfc2217.bat	/^:END$/;"	l
+END	avr_debug/hub4com-2.1.0.0-386/com2tcp.bat	/^:END$/;"	l
+END	avr_debug/hub4com-2.1.0.0-386/multiplexer.bat	/^:END$/;"	l
+FALSE	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	132;"	d	file:
+FALSE	avr_debug/avr8-stub/avr8-stub.c	132;"	d	file:
+FALSE	avr_debug/bootloader/optiboot/src/stub.c	16;"	d	file:
 FCPU	Makefile	/^FCPU		= 16000000$/;"	m
+FE0	avr_debug/bootloader/optiboot/src/pin_defs.h	24;"	d
+FILLMEM_20KB	avr_debug/examples/experimental/c/fillmem.h	18;"	d
+FILLMEM_A_30KB	avr_debug/examples/experimental/c/fillmem.h	19;"	d
+FILLMEM_B_30KB	avr_debug/examples/experimental/c/fillmem.h	20;"	d
+FILLMEM_C_30KB	avr_debug/examples/experimental/c/fillmem.h	21;"	d
+FILLMEM_D_30KB	avr_debug/examples/experimental/c/fillmem.h	22;"	d
+FLASH_OFFSET	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	383;"	d	file:
+FLASH_OFFSET	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	401;"	d	file:
+FLASH_OFFSET	avr_debug/avr8-stub/avr8-stub.c	383;"	d	file:
+FLASH_OFFSET	avr_debug/avr8-stub/avr8-stub.c	401;"	d	file:
+FLASH_OFFSET	avr_debug/bootloader/optiboot/src/stub.c	32;"	d	file:
+FLASH_OFFSET	avr_debug/bootloader/optiboot/src/stub.c	37;"	d	file:
+FlashE05	avr_debug/bootloader/optiboot/src/stub.c	/^const char FlashE05[] = "E05";$/;"	v
+FlashEmpty	avr_debug/bootloader/optiboot/src/stub.c	/^const char FlashEmpty[] = "";$/;"	v
+FlashOk	avr_debug/bootloader/optiboot/src/stub.c	/^const char FlashOk[] = "OK";$/;"	v
+GDB_BAUD_PRESCALE	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	163;"	d	file:
+GDB_BAUD_PRESCALE	avr_debug/avr8-stub/avr8-stub.c	163;"	d	file:
+GDB_BREAK_CLEAR_INFLASH	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	466;"	d	file:
+GDB_BREAK_CLEAR_INFLASH	avr_debug/avr8-stub/avr8-stub.c	466;"	d	file:
+GDB_BREAK_CLEAR_STATUS	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	476;"	d	file:
+GDB_BREAK_CLEAR_STATUS	avr_debug/avr8-stub/avr8-stub.c	476;"	d	file:
+GDB_BREAK_DISABLE	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	472;"	d	file:
+GDB_BREAK_DISABLE	avr_debug/avr8-stub/avr8-stub.c	472;"	d	file:
+GDB_BREAK_ENABLE	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	470;"	d	file:
+GDB_BREAK_ENABLE	avr_debug/avr8-stub/avr8-stub.c	470;"	d	file:
+GDB_BREAK_IS_ENABLED	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	474;"	d	file:
+GDB_BREAK_IS_ENABLED	avr_debug/avr8-stub/avr8-stub.c	474;"	d	file:
+GDB_BREAK_IS_INFLASH	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	468;"	d	file:
+GDB_BREAK_IS_INFLASH	avr_debug/avr8-stub/avr8-stub.c	468;"	d	file:
+GDB_BREAK_SET_INFLASH	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	464;"	d	file:
+GDB_BREAK_SET_INFLASH	avr_debug/avr8-stub/avr8-stub.c	464;"	d	file:
+GDB_NUMREGBYTES	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	738;"	d	file:
+GDB_NUMREGBYTES	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	740;"	d	file:
+GDB_NUMREGBYTES	avr_debug/avr8-stub/avr8-stub.c	738;"	d	file:
+GDB_NUMREGBYTES	avr_debug/avr8-stub/avr8-stub.c	740;"	d	file:
+GDB_SIGINT	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	369;"	d	file:
+GDB_SIGINT	avr_debug/avr8-stub/avr8-stub.c	369;"	d	file:
+GDB_SIGTRAP	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	370;"	d	file:
+GDB_SIGTRAP	avr_debug/avr8-stub/avr8-stub.c	370;"	d	file:
+GDB_STACKSIZE	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	754;"	d	file:
+GDB_STACKSIZE	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	757;"	d	file:
+GDB_STACKSIZE	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	760;"	d	file:
+GDB_STACKSIZE	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	763;"	d	file:
+GDB_STACKSIZE	avr_debug/avr8-stub/avr8-stub.c	754;"	d	file:
+GDB_STACKSIZE	avr_debug/avr8-stub/avr8-stub.c	757;"	d	file:
+GDB_STACKSIZE	avr_debug/avr8-stub/avr8-stub.c	760;"	d	file:
+GDB_STACKSIZE	avr_debug/avr8-stub/avr8-stub.c	763;"	d	file:
+GDB_STACK_CANARY	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	608;"	d	file:
+GDB_STACK_CANARY	avr_debug/avr8-stub/avr8-stub.c	608;"	d	file:
+GDB_USART_BAUDRATE	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	150;"	d	file:
+GDB_USART_BAUDRATE	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	152;"	d	file:
+GDB_USART_BAUDRATE	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	154;"	d	file:
+GDB_USART_BAUDRATE	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	156;"	d	file:
+GDB_USART_BAUDRATE	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	159;"	d	file:
+GDB_USART_BAUDRATE	avr_debug/avr8-stub/avr8-stub.c	150;"	d	file:
+GDB_USART_BAUDRATE	avr_debug/avr8-stub/avr8-stub.c	152;"	d	file:
+GDB_USART_BAUDRATE	avr_debug/avr8-stub/avr8-stub.c	154;"	d	file:
+GDB_USART_BAUDRATE	avr_debug/avr8-stub/avr8-stub.c	156;"	d	file:
+GDB_USART_BAUDRATE	avr_debug/avr8-stub/avr8-stub.c	159;"	d	file:
+GDB_WATCHDOG_TIMEOUT	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	495;"	d	file:
+GDB_WATCHDOG_TIMEOUT	avr_debug/avr8-stub/avr8-stub.c	495;"	d	file:
+GET_EXTENDED_FUSE_BITS	avr_debug/bootloader/optiboot/src/boot.h	595;"	d
+GET_HIGH_FUSE_BITS	avr_debug/bootloader/optiboot/src/boot.h	600;"	d
+GET_LOCK_BITS	avr_debug/bootloader/optiboot/src/boot.h	590;"	d
+GET_LOW_FUSE_BITS	avr_debug/bootloader/optiboot/src/boot.h	585;"	d
+G_BpEnabledINTx	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	/^uint8_t G_BpEnabledINTx = 0;	\/* How many times external INTx ISR was called and bp were enabled*\/$/;"	v
+G_BpEnabledINTx	avr_debug/avr8-stub/avr8-stub.c	/^uint8_t G_BpEnabledINTx = 0;	\/* How many times external INTx ISR was called and bp were enabled*\/$/;"	v
+G_BreakpointAdr	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	/^uint32_t G_BreakpointAdr = 0;	\/* Address of the breakpoint last set\/written to flash *\/$/;"	v
+G_BreakpointAdr	avr_debug/avr8-stub/avr8-stub.c	/^uint32_t G_BreakpointAdr = 0;	\/* Address of the breakpoint last set\/written to flash *\/$/;"	v
+G_ContinueCmdCount	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	/^uint8_t G_ContinueCmdCount = 0;	\/* Counter for continue commands from gdb *\/$/;"	v
+G_ContinueCmdCount	avr_debug/avr8-stub/avr8-stub.c	/^uint8_t G_ContinueCmdCount = 0;	\/* Counter for continue commands from gdb *\/$/;"	v
+G_Debug_INTxCount	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	/^uint8_t G_Debug_INTxCount = 0;	\/* How many times external INTx ISR was called*\/$/;"	v
+G_Debug_INTxCount	avr_debug/avr8-stub/avr8-stub.c	/^uint8_t G_Debug_INTxCount = 0;	\/* How many times external INTx ISR was called*\/$/;"	v
+G_LastPC	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	/^uint16_t G_LastPC = 0;			\/* Value of PC register in INTx ISR *\/$/;"	v
+G_LastPC	avr_debug/avr8-stub/avr8-stub.c	/^uint16_t G_LastPC = 0;			\/* Value of PC register in INTx ISR *\/$/;"	v
+G_RestoreOpcode	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	/^uint32_t G_RestoreOpcode = 0;	\/* Opcode(s) which were restored in flash when removing breakpoint *\/$/;"	v
+G_RestoreOpcode	avr_debug/avr8-stub/avr8-stub.c	/^uint32_t G_RestoreOpcode = 0;	\/* Opcode(s) which were restored in flash when removing breakpoint *\/$/;"	v
+G_StackUnused	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	/^uint8_t	G_StackUnused = 0;		\/* used for testing stack size only*\/$/;"	v
+G_StackUnused	avr_debug/avr8-stub/avr8-stub.c	/^uint8_t	G_StackUnused = 0;		\/* used for testing stack size only*\/$/;"	v
+G_StepCmdCount	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	/^uint16_t G_StepCmdCount = 0;	\/* Counter for step commands from GDB *\/$/;"	v
+G_StepCmdCount	avr_debug/avr8-stub/avr8-stub.c	/^uint16_t G_StepCmdCount = 0;	\/* Counter for step commands from GDB *\/$/;"	v
+G_buff	avr_debug/bootloader/optiboot/src/stub.c	/^uint8_t G_buff[AVR8_MAX_BUFF];$/;"	v
+G_buff_sz	avr_debug/bootloader/optiboot/src/stub.c	/^uint8_t G_buff_sz;$/;"	v
+IMPLEMENT_ISR	avr_debug/arduino/1.8.5/WInterrupts.c	283;"	d	file:
 ISR	Oscillator.c	/^ISR(TIMER1_COMPA_vect)$/;"	f
+ISR	avr_debug/arduino/1.6.5/WInterrupts.c	/^ISR(INT0_vect) {$/;"	f
+ISR	avr_debug/arduino/1.6.5/WInterrupts.c	/^ISR(INT1_vect) {$/;"	f
+ISR	avr_debug/arduino/1.6.5/WInterrupts.c	/^ISR(INT2_vect) {$/;"	f
+ISR	avr_debug/arduino/1.6.5/WInterrupts.c	/^ISR(INT3_vect) {$/;"	f
+ISR	avr_debug/arduino/1.6.5/WInterrupts.c	/^ISR(INT4_vect) {$/;"	f
+ISR	avr_debug/arduino/1.6.5/WInterrupts.c	/^ISR(INT5_vect) {$/;"	f
+ISR	avr_debug/arduino/1.6.5/WInterrupts.c	/^ISR(INT6_vect) {$/;"	f
+ISR	avr_debug/arduino/1.6.5/WInterrupts.c	/^ISR(INT7_vect) {$/;"	f
+ISR	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	/^ISR(AVR8_SWINT_VECT, ISR_BLOCK ISR_NAKED )$/;"	f
+ISR	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	/^ISR(TIMER0_COMPA_vect, ISR_BLOCK ISR_NAKED)$/;"	f
+ISR	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	/^ISR(UART_ISR_VECTOR, ISR_BLOCK ISR_NAKED)$/;"	f
+ISR	avr_debug/avr8-stub/avr8-stub.c	/^ISR(AVR8_SWINT_VECT, ISR_BLOCK ISR_NAKED )$/;"	f
+ISR	avr_debug/avr8-stub/avr8-stub.c	/^ISR(TIMER0_COMPA_vect, ISR_BLOCK ISR_NAKED)$/;"	f
+ISR	avr_debug/avr8-stub/avr8-stub.c	/^ISR(UART_ISR_VECTOR, ISR_BLOCK ISR_NAKED)$/;"	f
+ISR	avr_debug/examples/experimental/boot_api_app/main.c	/^ISR(TIMER1_COMPA_vect, ISR_NOBLOCK )$/;"	f
+ISR	avr_debug/examples/experimental/boot_api_app/main.c	/^ISR(WDT_vect)$/;"	f
+JUMP_TABLE_INDEX	avr_debug/arduino/library/avr-debugger/src/app_api.c	43;"	d	file:
+JUMP_TABLE_INDEX	avr_debug/avr8-stub/app_api.c	43;"	d	file:
+JUMP_TABLE_LOCATION	avr_debug/arduino/library/avr-debugger/src/app_api.c	42;"	d	file:
+JUMP_TABLE_LOCATION	avr_debug/avr8-stub/app_api.c	42;"	d	file:
+LED	avr_debug/bootloader/optiboot/src/pin_defs.h	35;"	d
+LED	avr_debug/bootloader/optiboot/src/pin_defs.h	52;"	d
+LED	avr_debug/bootloader/optiboot/src/pin_defs.h	6;"	d
+LED	avr_debug/bootloader/optiboot/src/pin_defs.h	70;"	d
+LED_DDR	avr_debug/bootloader/optiboot/src/pin_defs.h	32;"	d
+LED_DDR	avr_debug/bootloader/optiboot/src/pin_defs.h	3;"	d
+LED_DDR	avr_debug/bootloader/optiboot/src/pin_defs.h	49;"	d
+LED_DDR	avr_debug/bootloader/optiboot/src/pin_defs.h	67;"	d
+LED_PIN	avr_debug/bootloader/optiboot/src/pin_defs.h	34;"	d
+LED_PIN	avr_debug/bootloader/optiboot/src/pin_defs.h	51;"	d
+LED_PIN	avr_debug/bootloader/optiboot/src/pin_defs.h	5;"	d
+LED_PIN	avr_debug/bootloader/optiboot/src/pin_defs.h	69;"	d
+LED_PIN	avr_debug/examples/experimental/boot_api_app/main.c	21;"	d	file:
+LED_PIN	avr_debug/examples/experimental/boot_api_app/main.c	23;"	d	file:
+LED_PIN	avr_debug/examples/experimental/c/main.c	29;"	d	file:
+LED_PIN	avr_debug/examples/experimental/c/main.c	31;"	d	file:
+LED_PIN	avr_debug/examples/mega2560/c_mega/c_mega.c	20;"	d	file:
+LED_PORT	avr_debug/bootloader/optiboot/src/pin_defs.h	33;"	d
+LED_PORT	avr_debug/bootloader/optiboot/src/pin_defs.h	4;"	d
+LED_PORT	avr_debug/bootloader/optiboot/src/pin_defs.h	50;"	d
+LED_PORT	avr_debug/bootloader/optiboot/src/pin_defs.h	68;"	d
+LED_START_FLASHES	avr_debug/bootloader/optiboot/src/optiboot.c	246;"	d	file:
+MAKESTR	avr_debug/bootloader/optiboot/src/optiboot.c	205;"	d	file:
+MAKEVER	avr_debug/bootloader/optiboot/src/optiboot.c	206;"	d	file:
+MEM_SPACE_MASK	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	382;"	d	file:
+MEM_SPACE_MASK	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	400;"	d	file:
+MEM_SPACE_MASK	avr_debug/avr8-stub/avr8-stub.c	382;"	d	file:
+MEM_SPACE_MASK	avr_debug/avr8-stub/avr8-stub.c	400;"	d	file:
+MEM_SPACE_MASK	avr_debug/bootloader/optiboot/src/stub.c	31;"	d	file:
+MEM_SPACE_MASK	avr_debug/bootloader/optiboot/src/stub.c	36;"	d	file:
+MIN	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	345;"	d	file:
+MIN	avr_debug/avr8-stub/avr8-stub.c	345;"	d	file:
+MY_RAMSTART	avr_debug/bootloader/optiboot/src/bootapi.h	42;"	d
 NCO_ADCSetup	Oscillator.c	/^void NCO_ADCSetup (void)$/;"	f
+NCO_Timer0Timer2Setup	Oscillator.c	/^static void NCO_Timer0Timer2Setup (void)$/;"	f	file:
 NCO_Timer1Setup	Oscillator.c	/^static void NCO_Timer1Setup (void)$/;"	f	file:
+NRWWSTART	avr_debug/bootloader/optiboot/src/bootapi.h	40;"	d
+NRWWSTART	avr_debug/bootloader/optiboot/src/bootapi.h	43;"	d
+NRWWSTART	avr_debug/bootloader/optiboot/src/bootapi.h	46;"	d
+NRWWSTART	avr_debug/bootloader/optiboot/src/bootapi.h	49;"	d
+NRWWSTART	avr_debug/bootloader/optiboot/src/bootapi.h	52;"	d
+NRWWSTART	avr_debug/bootloader/optiboot/src/bootapi.h	55;"	d
 OBJCOPY	Makefile	/^OBJCOPY		= avr-objcopy$/;"	m
+OBJECTS	Makefile	/^OBJECTS		= ${PROG}.o avr8-stub.o$/;"	m
+OPTIBOOT_MAJVER	avr_debug/bootloader/optiboot/src/optiboot.c	202;"	d	file:
+OPTIBOOT_MINVER	avr_debug/bootloader/optiboot/src/optiboot.c	203;"	d	file:
 OSCILLATOR_H	Oscillator.h	8;"	d
+PGM_READ_BYTE	avr_debug/arduino/library/avr-debugger/src/app_api.c	45;"	d	file:
+PGM_READ_BYTE	avr_debug/avr8-stub/app_api.c	45;"	d	file:
+PGM_READ_DWORD	avr_debug/arduino/library/avr-debugger/src/app_api.c	47;"	d	file:
+PGM_READ_DWORD	avr_debug/avr8-stub/app_api.c	47;"	d	file:
+PGM_READ_WORD	avr_debug/arduino/library/avr-debugger/src/app_api.c	46;"	d	file:
+PGM_READ_WORD	avr_debug/avr8-stub/app_api.c	46;"	d	file:
 PORT	Makefile	/^PORT		= \/dev\/ttyUSB0$/;"	m
 PROG	Makefile	/^PROG		= Oscillator$/;"	m
+PROGMEM	avr_debug/examples/experimental/c/fillmem.h	/^const long filldata2_c_[] PROGMEM = {$/;"	v
+PROGMEM	avr_debug/examples/experimental/c/fillmem.h	/^const long filldata2_d_[] PROGMEM = {$/;"	v
+PROGMEM	avr_debug/examples/experimental/c/fillmem.h	/^const long filldata_20k[] PROGMEM = {$/;"	v
+PROGMEM	avr_debug/examples/experimental/c/fillmem.h	/^const long filldata_a_[] PROGMEM = {$/;"	v
+PROGMEM	avr_debug/examples/experimental/c/fillmem.h	/^const long filldata_b_[] PROGMEM = {$/;"	v
+PWM_ADJUST_OK	avr_debug/bootloader/optiboot/src/stk500.h	11;"	d
+PWM_CHANNEL_ERROR	avr_debug/bootloader/optiboot/src/stk500.h	10;"	d
+QuarterSineTable	Oscillator.h	/^uint8_t const QuarterSineTable[256] = {$/;"	v
+RAMSTART	avr_debug/bootloader/optiboot/src/bootapi.h	39;"	d
+RAMSTART	avr_debug/bootloader/optiboot/src/bootapi.h	45;"	d
+RAMSTART	avr_debug/bootloader/optiboot/src/bootapi.h	48;"	d
+RAMSTART	avr_debug/bootloader/optiboot/src/bootapi.h	51;"	d
+RAMSTART	avr_debug/bootloader/optiboot/src/bootapi.h	54;"	d
+RET_ADDR_MASK	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	394;"	d	file:
+RET_ADDR_MASK	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	396;"	d	file:
+RET_ADDR_MASK	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	413;"	d	file:
+RET_ADDR_MASK	avr_debug/avr8-stub/avr8-stub.c	394;"	d	file:
+RET_ADDR_MASK	avr_debug/avr8-stub/avr8-stub.c	396;"	d	file:
+RET_ADDR_MASK	avr_debug/avr8-stub/avr8-stub.c	413;"	d	file:
+RM	avr_debug/bootloader/optiboot/Debug/makefile	/^RM := rm -rf$/;"	m
+RM	avr_debug/examples/experimental/boot_api_app/Debug/makefile	/^RM := rm -rf$/;"	m
+ROUNDDOWN	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	114;"	d	file:
+ROUNDDOWN	avr_debug/avr8-stub/avr8-stub.c	114;"	d	file:
+ROUNDDOWN	avr_debug/bootloader/optiboot/src/bootapi.c	111;"	d	file:
+ROUNDUP	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	113;"	d	file:
+ROUNDUP	avr_debug/avr8-stub/avr8-stub.c	113;"	d	file:
+ROUNDUP	avr_debug/bootloader/optiboot/src/bootapi.c	110;"	d	file:
+RXC0	avr_debug/bootloader/optiboot/src/pin_defs.h	23;"	d
+R_PC	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	801;"	d	file:
+R_PC	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	803;"	d	file:
+R_PC	avr_debug/avr8-stub/avr8-stub.c	801;"	d	file:
+R_PC	avr_debug/avr8-stub/avr8-stub.c	803;"	d	file:
+R_PC_H	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	805;"	d	file:
+R_PC_H	avr_debug/avr8-stub/avr8-stub.c	805;"	d	file:
+R_PC_HH	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	807;"	d	file:
+R_PC_HH	avr_debug/avr8-stub/avr8-stub.c	807;"	d	file:
+R_SP	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	809;"	d	file:
+R_SP	avr_debug/avr8-stub/avr8-stub.c	809;"	d	file:
+R_SREG	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	810;"	d	file:
+R_SREG	avr_debug/avr8-stub/avr8-stub.c	810;"	d	file:
+SOFT_UART	avr_debug/bootloader/optiboot/src/optiboot.c	269;"	d	file:
+SPM_PAGESIZE_W	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	112;"	d	file:
+SPM_PAGESIZE_W	avr_debug/avr8-stub/avr8-stub.c	112;"	d	file:
+SPM_PAGESIZE_W	avr_debug/bootloader/optiboot/src/bootapi.c	109;"	d	file:
+SRAM_OFFSET	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	384;"	d	file:
+SRAM_OFFSET	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	402;"	d	file:
+SRAM_OFFSET	avr_debug/avr8-stub/avr8-stub.c	384;"	d	file:
+SRAM_OFFSET	avr_debug/avr8-stub/avr8-stub.c	402;"	d	file:
+SRAM_OFFSET	avr_debug/bootloader/optiboot/src/stub.c	33;"	d	file:
+SRAM_OFFSET	avr_debug/bootloader/optiboot/src/stub.c	38;"	d	file:
+STK_CHECK_AUTOINC	avr_debug/bootloader/optiboot/src/stk500.h	22;"	d
+STK_CHIP_ERASE	avr_debug/bootloader/optiboot/src/stk500.h	21;"	d
+STK_ENTER_PROGMODE	avr_debug/bootloader/optiboot/src/stk500.h	19;"	d
+STK_FAILED	avr_debug/bootloader/optiboot/src/stk500.h	3;"	d
+STK_GET_PARAMETER	avr_debug/bootloader/optiboot/src/stk500.h	16;"	d
+STK_GET_SIGN_ON	avr_debug/bootloader/optiboot/src/stk500.h	14;"	d
+STK_GET_SYNC	avr_debug/bootloader/optiboot/src/stk500.h	13;"	d
+STK_INSYNC	avr_debug/bootloader/optiboot/src/stk500.h	6;"	d
+STK_LEAVE_PROGMODE	avr_debug/bootloader/optiboot/src/stk500.h	20;"	d
+STK_LOAD_ADDRESS	avr_debug/bootloader/optiboot/src/stk500.h	23;"	d
+STK_NODEVICE	avr_debug/bootloader/optiboot/src/stk500.h	5;"	d
+STK_NOSYNC	avr_debug/bootloader/optiboot/src/stk500.h	7;"	d
+STK_OK	avr_debug/bootloader/optiboot/src/stk500.h	2;"	d
+STK_PROG_DATA	avr_debug/bootloader/optiboot/src/stk500.h	26;"	d
+STK_PROG_FLASH	avr_debug/bootloader/optiboot/src/stk500.h	25;"	d
+STK_PROG_FUSE	avr_debug/bootloader/optiboot/src/stk500.h	27;"	d
+STK_PROG_FUSE_EXT	avr_debug/bootloader/optiboot/src/stk500.h	30;"	d
+STK_PROG_LOCK	avr_debug/bootloader/optiboot/src/stk500.h	28;"	d
+STK_PROG_PAGE	avr_debug/bootloader/optiboot/src/stk500.h	29;"	d
+STK_READ_DATA	avr_debug/bootloader/optiboot/src/stk500.h	32;"	d
+STK_READ_FLASH	avr_debug/bootloader/optiboot/src/stk500.h	31;"	d
+STK_READ_FUSE	avr_debug/bootloader/optiboot/src/stk500.h	33;"	d
+STK_READ_FUSE_EXT	avr_debug/bootloader/optiboot/src/stk500.h	38;"	d
+STK_READ_LOCK	avr_debug/bootloader/optiboot/src/stk500.h	34;"	d
+STK_READ_OSCCAL	avr_debug/bootloader/optiboot/src/stk500.h	37;"	d
+STK_READ_OSCCAL_EXT	avr_debug/bootloader/optiboot/src/stk500.h	39;"	d
+STK_READ_PAGE	avr_debug/bootloader/optiboot/src/stk500.h	35;"	d
+STK_READ_SIGN	avr_debug/bootloader/optiboot/src/stk500.h	36;"	d
+STK_SET_DEVICE	avr_debug/bootloader/optiboot/src/stk500.h	17;"	d
+STK_SET_DEVICE_EXT	avr_debug/bootloader/optiboot/src/stk500.h	18;"	d
+STK_SET_PARAMETER	avr_debug/bootloader/optiboot/src/stk500.h	15;"	d
+STK_UNIVERSAL	avr_debug/bootloader/optiboot/src/stk500.h	24;"	d
+STK_UNKNOWN	avr_debug/bootloader/optiboot/src/stk500.h	4;"	d
+STR	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	419;"	d	file:
+STR	avr_debug/avr8-stub/avr8-stub.c	419;"	d	file:
+STR_VAL	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	420;"	d	file:
+STR_VAL	avr_debug/avr8-stub/avr8-stub.c	420;"	d	file:
+TIFR1	avr_debug/bootloader/optiboot/src/pin_defs.h	25;"	d
 TIMER1_COMPARE_PERIOD	Oscillator.h	15;"	d
 TIMER1_PRESCALE_SELECT	Oscillator.h	16;"	d
+TIMER_RATE	avr_debug/examples/experimental/boot_api_app/main.c	162;"	d	file:
+TRAP_OPCODE	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	440;"	d	file:
+TRAP_OPCODE	avr_debug/avr8-stub/avr8-stub.c	440;"	d	file:
+TRUE	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	133;"	d	file:
+TRUE	avr_debug/avr8-stub/avr8-stub.c	133;"	d	file:
+TRUE	avr_debug/bootloader/optiboot/src/stub.c	17;"	d	file:
+UART_B_VALUE	avr_debug/bootloader/optiboot/src/optiboot.c	669;"	d	file:
+UART_DDR	avr_debug/bootloader/optiboot/src/pin_defs.h	12;"	d
+UART_DDR	avr_debug/bootloader/optiboot/src/pin_defs.h	40;"	d
+UART_DDR	avr_debug/bootloader/optiboot/src/pin_defs.h	58;"	d
+UART_DDR	avr_debug/bootloader/optiboot/src/pin_defs.h	76;"	d
+UART_ISR_VECTOR	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	386;"	d	file:
+UART_ISR_VECTOR	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	404;"	d	file:
+UART_ISR_VECTOR	avr_debug/avr8-stub/avr8-stub.c	386;"	d	file:
+UART_ISR_VECTOR	avr_debug/avr8-stub/avr8-stub.c	404;"	d	file:
+UART_PIN	avr_debug/bootloader/optiboot/src/pin_defs.h	11;"	d
+UART_PIN	avr_debug/bootloader/optiboot/src/pin_defs.h	39;"	d
+UART_PIN	avr_debug/bootloader/optiboot/src/pin_defs.h	57;"	d
+UART_PIN	avr_debug/bootloader/optiboot/src/pin_defs.h	75;"	d
+UART_PORT	avr_debug/bootloader/optiboot/src/pin_defs.h	10;"	d
+UART_PORT	avr_debug/bootloader/optiboot/src/pin_defs.h	38;"	d
+UART_PORT	avr_debug/bootloader/optiboot/src/pin_defs.h	56;"	d
+UART_PORT	avr_debug/bootloader/optiboot/src/pin_defs.h	74;"	d
+UART_RXINT_PENDING	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	1026;"	d	file:
+UART_RXINT_PENDING	avr_debug/avr8-stub/avr8-stub.c	1026;"	d	file:
+UART_RX_BIT	avr_debug/bootloader/optiboot/src/pin_defs.h	14;"	d
+UART_RX_BIT	avr_debug/bootloader/optiboot/src/pin_defs.h	42;"	d
+UART_RX_BIT	avr_debug/bootloader/optiboot/src/pin_defs.h	60;"	d
+UART_RX_BIT	avr_debug/bootloader/optiboot/src/pin_defs.h	78;"	d
+UART_TX_BIT	avr_debug/bootloader/optiboot/src/pin_defs.h	13;"	d
+UART_TX_BIT	avr_debug/bootloader/optiboot/src/pin_defs.h	41;"	d
+UART_TX_BIT	avr_debug/bootloader/optiboot/src/pin_defs.h	59;"	d
+UART_TX_BIT	avr_debug/bootloader/optiboot/src/pin_defs.h	77;"	d
+UCSR0A	avr_debug/bootloader/optiboot/src/pin_defs.h	20;"	d
+UDR0	avr_debug/bootloader/optiboot/src/pin_defs.h	21;"	d
+UDRE0	avr_debug/bootloader/optiboot/src/pin_defs.h	22;"	d
+USAGE	avr_debug/hub4com-2.1.0.0-386/com2tcp-rfc2217.bat	/^:USAGE$/;"	l
+USAGE	avr_debug/hub4com-2.1.0.0-386/com2tcp.bat	/^:USAGE$/;"	l
+USAGE	avr_debug/hub4com-2.1.0.0-386/multiplexer.bat	/^:USAGE$/;"	l
+WATCHDOG_125MS	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	483;"	d	file:
+WATCHDOG_125MS	avr_debug/avr8-stub/avr8-stub.c	483;"	d	file:
+WATCHDOG_125MS	avr_debug/bootloader/optiboot/src/optiboot.c	278;"	d	file:
+WATCHDOG_125MS	avr_debug/examples/experimental/boot_api_app/main.c	43;"	d	file:
+WATCHDOG_16MS	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	480;"	d	file:
+WATCHDOG_16MS	avr_debug/avr8-stub/avr8-stub.c	480;"	d	file:
+WATCHDOG_16MS	avr_debug/bootloader/optiboot/src/optiboot.c	275;"	d	file:
+WATCHDOG_16MS	avr_debug/bootloader/optiboot/src/stub.c	43;"	d	file:
+WATCHDOG_16MS	avr_debug/examples/experimental/boot_api_app/main.c	40;"	d	file:
+WATCHDOG_1S	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	486;"	d	file:
+WATCHDOG_1S	avr_debug/avr8-stub/avr8-stub.c	486;"	d	file:
+WATCHDOG_1S	avr_debug/bootloader/optiboot/src/optiboot.c	281;"	d	file:
+WATCHDOG_1S	avr_debug/examples/experimental/boot_api_app/main.c	46;"	d	file:
+WATCHDOG_250MS	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	484;"	d	file:
+WATCHDOG_250MS	avr_debug/avr8-stub/avr8-stub.c	484;"	d	file:
+WATCHDOG_250MS	avr_debug/bootloader/optiboot/src/optiboot.c	279;"	d	file:
+WATCHDOG_250MS	avr_debug/examples/experimental/boot_api_app/main.c	44;"	d	file:
+WATCHDOG_2S	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	487;"	d	file:
+WATCHDOG_2S	avr_debug/avr8-stub/avr8-stub.c	487;"	d	file:
+WATCHDOG_2S	avr_debug/bootloader/optiboot/src/optiboot.c	282;"	d	file:
+WATCHDOG_2S	avr_debug/examples/experimental/boot_api_app/main.c	47;"	d	file:
+WATCHDOG_32MS	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	481;"	d	file:
+WATCHDOG_32MS	avr_debug/avr8-stub/avr8-stub.c	481;"	d	file:
+WATCHDOG_32MS	avr_debug/bootloader/optiboot/src/optiboot.c	276;"	d	file:
+WATCHDOG_32MS	avr_debug/examples/experimental/boot_api_app/main.c	41;"	d	file:
+WATCHDOG_4S	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	488;"	d	file:
+WATCHDOG_4S	avr_debug/avr8-stub/avr8-stub.c	488;"	d	file:
+WATCHDOG_4S	avr_debug/bootloader/optiboot/src/optiboot.c	284;"	d	file:
+WATCHDOG_4S	avr_debug/examples/experimental/boot_api_app/main.c	48;"	d	file:
+WATCHDOG_500MS	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	485;"	d	file:
+WATCHDOG_500MS	avr_debug/avr8-stub/avr8-stub.c	485;"	d	file:
+WATCHDOG_500MS	avr_debug/bootloader/optiboot/src/optiboot.c	280;"	d	file:
+WATCHDOG_500MS	avr_debug/examples/experimental/boot_api_app/main.c	45;"	d	file:
+WATCHDOG_64MS	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	482;"	d	file:
+WATCHDOG_64MS	avr_debug/avr8-stub/avr8-stub.c	482;"	d	file:
+WATCHDOG_64MS	avr_debug/bootloader/optiboot/src/optiboot.c	277;"	d	file:
+WATCHDOG_64MS	avr_debug/examples/experimental/boot_api_app/main.c	42;"	d	file:
+WATCHDOG_8S	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	489;"	d	file:
+WATCHDOG_8S	avr_debug/avr8-stub/avr8-stub.c	489;"	d	file:
+WATCHDOG_8S	avr_debug/bootloader/optiboot/src/optiboot.c	285;"	d	file:
+WATCHDOG_8S	avr_debug/examples/experimental/boot_api_app/main.c	49;"	d	file:
+WATCHDOG_OFF	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	479;"	d	file:
+WATCHDOG_OFF	avr_debug/avr8-stub/avr8-stub.c	479;"	d	file:
+WATCHDOG_OFF	avr_debug/bootloader/optiboot/src/optiboot.c	274;"	d	file:
+WATCHDOG_OFF	avr_debug/bootloader/optiboot/src/stub.c	42;"	d	file:
+WATCHDOG_OFF	avr_debug/examples/experimental/boot_api_app/main.c	39;"	d	file:
+WDTCSR	avr_debug/bootloader/optiboot/src/pin_defs.h	26;"	d
+WDTRESET	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	524;"	d	file:
+WDTRESET	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	526;"	d	file:
+WDTRESET	avr_debug/avr8-stub/avr8-stub.c	524;"	d	file:
+WDTRESET	avr_debug/avr8-stub/avr8-stub.c	526;"	d	file:
+_AVR_BOOT_H_	avr_debug/bootloader/optiboot/src/boot.h	41;"	d
+__BOOT_LOCK_BITS_SET	avr_debug/bootloader/optiboot/src/boot.h	207;"	d
+__BOOT_PAGE_ERASE	avr_debug/bootloader/optiboot/src/boot.h	203;"	d
+__BOOT_PAGE_FILL	avr_debug/bootloader/optiboot/src/boot.h	205;"	d
+__BOOT_PAGE_WRITE	avr_debug/bootloader/optiboot/src/boot.h	204;"	d
+__BOOT_RWW_ENABLE	avr_debug/bootloader/optiboot/src/boot.h	206;"	d
+__BOOT_SIGROW_READ	avr_debug/bootloader/optiboot/src/boot.h	661;"	d
+__COMMON_ASB	avr_debug/bootloader/optiboot/src/boot.h	149;"	d
+__COMMON_ASB	avr_debug/bootloader/optiboot/src/boot.h	151;"	d
+__COMMON_ASRE	avr_debug/bootloader/optiboot/src/boot.h	155;"	d
+__COMMON_ASRE	avr_debug/bootloader/optiboot/src/boot.h	157;"	d
+__DEBUG__	avr_debug/arduino/library/avr-debugger/src/avr_debugger.h	14;"	d
+__DEBUG__	avr_debug/avr8-stub/avr_debugger.h	14;"	d
+__SPM_ENABLE	avr_debug/bootloader/optiboot/src/boot.h	130;"	d
+__SPM_ENABLE	avr_debug/bootloader/optiboot/src/boot.h	132;"	d
+__SPM_REG	avr_debug/bootloader/optiboot/src/boot.h	120;"	d
+__SPM_REG	avr_debug/bootloader/optiboot/src/boot.h	122;"	d
+__boot_lock_bits_set	avr_debug/bootloader/optiboot/src/boot.h	524;"	d
+__boot_lock_bits_set_alternate	avr_debug/bootloader/optiboot/src/boot.h	542;"	d
+__boot_lock_bits_set_short	avr_debug/bootloader/optiboot/src/boot.h	506;"	d
+__boot_page_erase_alternate	avr_debug/bootloader/optiboot/src/boot.h	329;"	d
+__boot_page_erase_extended	avr_debug/bootloader/optiboot/src/boot.h	344;"	d
+__boot_page_erase_extended_short	avr_debug/bootloader/optiboot/src/boot.h	360;"	d
+__boot_page_erase_normal	avr_debug/bootloader/optiboot/src/boot.h	316;"	d
+__boot_page_erase_short	avr_debug/bootloader/optiboot/src/boot.h	302;"	d
+__boot_page_fill_alternate	avr_debug/bootloader/optiboot/src/boot.h	243;"	d
+__boot_page_fill_extended	avr_debug/bootloader/optiboot/src/boot.h	262;"	d
+__boot_page_fill_extended_short	avr_debug/bootloader/optiboot/src/boot.h	282;"	d
+__boot_page_fill_normal	avr_debug/bootloader/optiboot/src/boot.h	226;"	d
+__boot_page_fill_short	avr_debug/bootloader/optiboot/src/boot.h	209;"	d
+__boot_page_write_alternate	avr_debug/bootloader/optiboot/src/boot.h	403;"	d
+__boot_page_write_extended	avr_debug/bootloader/optiboot/src/boot.h	418;"	d
+__boot_page_write_extended_short	avr_debug/bootloader/optiboot/src/boot.h	434;"	d
+__boot_page_write_normal	avr_debug/bootloader/optiboot/src/boot.h	390;"	d
+__boot_page_write_short	avr_debug/bootloader/optiboot/src/boot.h	377;"	d
+__boot_rww_enable	avr_debug/bootloader/optiboot/src/boot.h	463;"	d
+__boot_rww_enable_alternate	avr_debug/bootloader/optiboot/src/boot.h	475;"	d
+__boot_rww_enable_short	avr_debug/bootloader/optiboot/src/boot.h	451;"	d
+addr	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	/^	Address_t addr; \/* in words *\/$/;"	m	struct:gdb_break	file:
+addr	avr_debug/avr8-stub/avr8-stub.c	/^	Address_t addr; \/* in words *\/$/;"	m	struct:gdb_break	file:
+appStart	avr_debug/bootloader/optiboot/src/optiboot.c	/^void appStart() {$/;"	f
+attachInterrupt	avr_debug/arduino/1.6.5/WInterrupts.c	/^void attachInterrupt(uint8_t interruptNum, void (*userFunc)(void), int mode) {$/;"	f
+attachInterrupt	avr_debug/arduino/1.8.5/WInterrupts.c	/^void attachInterrupt(uint8_t interruptNum, void (*userFunc)(void), int mode) {$/;"	f
+avrdbgboot_jump_table_s	avr_debug/arduino/library/avr-debugger/src/app_api.c	/^struct avrdbgboot_jump_table_s {$/;"	s	file:
+avrdbgboot_jump_table_s	avr_debug/avr8-stub/app_api.c	/^struct avrdbgboot_jump_table_s {$/;"	s	file:
+avrdbgboot_jump_table_s	avr_debug/bootloader/optiboot/src/bootapi.h	/^struct avrdbgboot_jump_table_s {$/;"	s
+bin2mem	avr_debug/bootloader/optiboot/src/stub.c	/^static unsigned char *bin2mem(unsigned char *buf, unsigned char *mem, int count) {$/;"	f	file:
+bool_t	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	/^typedef uint8_t bool_t;$/;"	t	file:
+bool_t	avr_debug/avr8-stub/avr8-stub.c	/^typedef uint8_t bool_t;$/;"	t	file:
+bool_t	avr_debug/bootloader/optiboot/src/stub.c	/^typedef uint8_t bool_t;$/;"	t	file:
+boot_is_spm_interrupt	avr_debug/bootloader/optiboot/src/boot.h	183;"	d
+boot_lock_bits_set	avr_debug/bootloader/optiboot/src/boot.h	764;"	d
+boot_lock_bits_set	avr_debug/bootloader/optiboot/src/boot.h	773;"	d
+boot_lock_bits_set	avr_debug/bootloader/optiboot/src/boot.h	782;"	d
+boot_lock_bits_set_safe	avr_debug/bootloader/optiboot/src/boot.h	839;"	d
+boot_lock_fuse_bits_get	avr_debug/bootloader/optiboot/src/boot.h	632;"	d
+boot_lock_fuse_bits_get_short	avr_debug/bootloader/optiboot/src/boot.h	614;"	d
+boot_page_erase	avr_debug/bootloader/optiboot/src/boot.h	761;"	d
+boot_page_erase	avr_debug/bootloader/optiboot/src/boot.h	770;"	d
+boot_page_erase	avr_debug/bootloader/optiboot/src/boot.h	779;"	d
+boot_page_erase_safe	avr_debug/bootloader/optiboot/src/boot.h	803;"	d
+boot_page_fill	avr_debug/bootloader/optiboot/src/boot.h	760;"	d
+boot_page_fill	avr_debug/bootloader/optiboot/src/boot.h	769;"	d
+boot_page_fill	avr_debug/bootloader/optiboot/src/boot.h	778;"	d
+boot_page_fill_safe	avr_debug/bootloader/optiboot/src/boot.h	791;"	d
+boot_page_write	avr_debug/bootloader/optiboot/src/boot.h	762;"	d
+boot_page_write	avr_debug/bootloader/optiboot/src/boot.h	771;"	d
+boot_page_write	avr_debug/bootloader/optiboot/src/boot.h	780;"	d
+boot_page_write_safe	avr_debug/bootloader/optiboot/src/boot.h	815;"	d
+boot_rww_busy	avr_debug/bootloader/optiboot/src/boot.h	189;"	d
+boot_rww_enable	avr_debug/bootloader/optiboot/src/boot.h	763;"	d
+boot_rww_enable	avr_debug/bootloader/optiboot/src/boot.h	772;"	d
+boot_rww_enable	avr_debug/bootloader/optiboot/src/boot.h	781;"	d
+boot_rww_enable_safe	avr_debug/bootloader/optiboot/src/boot.h	827;"	d
+boot_signature_byte_get	avr_debug/bootloader/optiboot/src/boot.h	679;"	d
+boot_signature_byte_get_short	avr_debug/bootloader/optiboot/src/boot.h	663;"	d
+boot_spm_busy	avr_debug/bootloader/optiboot/src/boot.h	195;"	d
+boot_spm_busy_wait	avr_debug/bootloader/optiboot/src/boot.h	201;"	d
+boot_spm_interrupt_disable	avr_debug/bootloader/optiboot/src/boot.h	177;"	d
+boot_spm_interrupt_enable	avr_debug/bootloader/optiboot/src/boot.h	171;"	d
+breakpoint	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	/^void breakpoint(void)$/;"	f
+breakpoint	avr_debug/avr8-stub/avr8-stub.c	/^void breakpoint(void)$/;"	f
+breakpoint_enabled	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	/^	uint8_t breakpoint_enabled;		\/* At least one BP is set. This could be RAM only but it makes code easier to read if it exists in flash bp mode too. *\/$/;"	m	struct:gdb_context	file:
+breakpoint_enabled	avr_debug/avr8-stub/avr8-stub.c	/^	uint8_t breakpoint_enabled;		\/* At least one BP is set. This could be RAM only but it makes code easier to read if it exists in flash bp mode too. *\/$/;"	m	struct:gdb_context	file:
+breaks	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	/^	Address_t breaks [AVR8_MAX_BREAKS+1];	\/* Breakpoints *\/$/;"	m	struct:gdb_context	file:
+breaks	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	/^    struct gdb_break breaks[AVR8_MAX_BREAKS*2+1]; \/* so that we can choose AVR8_MAX_BREAKS new bps *\/$/;"	m	struct:gdb_context	typeref:struct:gdb_context::gdb_break	file:
+breaks	avr_debug/avr8-stub/avr8-stub.c	/^	Address_t breaks [AVR8_MAX_BREAKS+1];	\/* Breakpoints *\/$/;"	m	struct:gdb_context	file:
+breaks	avr_debug/avr8-stub/avr8-stub.c	/^    struct gdb_break breaks[AVR8_MAX_BREAKS*2+1]; \/* so that we can choose AVR8_MAX_BREAKS new bps *\/$/;"	m	struct:gdb_context	typeref:struct:gdb_context::gdb_break	file:
+breaks_cnt	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	/^	uint8_t breaks_cnt;				\/* number of valid breakpoints inserted *\/$/;"	m	struct:gdb_context	file:
+breaks_cnt	avr_debug/avr8-stub/avr8-stub.c	/^	uint8_t breaks_cnt;				\/* number of valid breakpoints inserted *\/$/;"	m	struct:gdb_context	file:
+buff	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	/^	uint8_t buff[AVR8_MAX_BUFF+1];$/;"	m	struct:gdb_context	file:
+buff	avr_debug/avr8-stub/avr8-stub.c	/^	uint8_t buff[AVR8_MAX_BUFF+1];$/;"	m	struct:gdb_context	file:
+buff	avr_debug/bootloader/optiboot/src/optiboot.c	311;"	d	file:
+buff_sz	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	/^	uint8_t buff_sz;$/;"	m	struct:gdb_context	file:
+buff_sz	avr_debug/avr8-stub/avr8-stub.c	/^	uint8_t buff_sz;$/;"	m	struct:gdb_context	file:
+cnt	avr_debug/examples/experimental/boot_api_app/main.c	/^uint16_t cnt = 0;$/;"	v
+cnt	avr_debug/examples/experimental/c/main.c	/^uint16_t cnt = 0;$/;"	v
+cnt	avr_debug/examples/mega2560/c_mega/c_mega.c	/^uint16_t cnt = 0;$/;"	v
+cnt	avr_debug/examples/mega328/c_uno/main.c	/^uint16_t cnt = 0;$/;"	v
+ctx	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	/^static struct gdb_context ctx;$/;"	v	typeref:struct:gdb_context	file:
+ctx	avr_debug/avr8-stub/avr8-stub.c	/^static struct gdb_context ctx;$/;"	v	typeref:struct:gdb_context	file:
+dbg_breakpoint	avr_debug/arduino/library/avr-debugger/src/avr_debugger.h	24;"	d
+dbg_breakpoint	avr_debug/avr8-stub/avr_debugger.h	24;"	d
+dbg_init	avr_debug/arduino/library/avr-debugger/src/avr_debugger.h	28;"	d
+dbg_init	avr_debug/avr8-stub/avr_debugger.h	28;"	d
+dbg_message	avr_debug/arduino/library/avr-debugger/src/avr_debugger.h	32;"	d
+dbg_message	avr_debug/avr8-stub/avr_debugger.h	32;"	d
+dbg_start	avr_debug/arduino/library/avr-debugger/src/avr_debugger.h	36;"	d
+dbg_start	avr_debug/avr8-stub/avr_debugger.h	36;"	d
+dboot_get_api_version	avr_debug/arduino/library/avr-debugger/src/app_api.c	/^uint8_t dboot_get_api_version(uint8_t *ver) {$/;"	f
+dboot_get_api_version	avr_debug/avr8-stub/app_api.c	/^uint8_t dboot_get_api_version(uint8_t *ver) {$/;"	f
+dboot_get_version	avr_debug/arduino/library/avr-debugger/src/app_api.c	/^uint8_t dboot_get_version(uint16_t *ver) {$/;"	f
+dboot_get_version	avr_debug/avr8-stub/app_api.c	/^uint8_t dboot_get_version(uint16_t *ver) {$/;"	f
+dboot_get_version	avr_debug/bootloader/optiboot/src/bootapi.c	/^uint8_t dboot_get_version(uint16_t *ver) {$/;"	f
+dboot_handle_xload	avr_debug/arduino/library/avr-debugger/src/app_api.c	/^uint8_t dboot_handle_xload(void) {$/;"	f
+dboot_handle_xload	avr_debug/avr8-stub/app_api.c	/^uint8_t dboot_handle_xload(void) {$/;"	f
+dboot_handle_xload	avr_debug/bootloader/optiboot/src/stub.c	/^void dboot_handle_xload(void)$/;"	f
+dboot_init_api	avr_debug/arduino/library/avr-debugger/src/app_api.c	/^uint8_t dboot_init_api(void) {$/;"	f
+dboot_init_api	avr_debug/avr8-stub/app_api.c	/^uint8_t dboot_init_api(void) {$/;"	f
+dboot_led_init	avr_debug/arduino/library/avr-debugger/src/app_api.c	/^ uint8_t dboot_led_init(void) {$/;"	f
+dboot_led_init	avr_debug/avr8-stub/app_api.c	/^ uint8_t dboot_led_init(void) {$/;"	f
+dboot_led_init	avr_debug/bootloader/optiboot/src/bootapi.c	/^void dboot_led_init(void)$/;"	f
+dboot_led_toggle	avr_debug/arduino/library/avr-debugger/src/app_api.c	/^ uint8_t dboot_led_toggle(void) {$/;"	f
+dboot_led_toggle	avr_debug/avr8-stub/app_api.c	/^ uint8_t dboot_led_toggle(void) {$/;"	f
+dboot_led_toggle	avr_debug/bootloader/optiboot/src/bootapi.c	/^void dboot_led_toggle(void)$/;"	f
+dboot_safe_pgm_write	avr_debug/arduino/library/avr-debugger/src/app_api.c	/^uint8_t dboot_safe_pgm_write(const void *ram_addr, uint16_t rom_addr, uint16_t sz) {$/;"	f
+dboot_safe_pgm_write	avr_debug/avr8-stub/app_api.c	/^uint8_t dboot_safe_pgm_write(const void *ram_addr, uint16_t rom_addr, uint16_t sz) {$/;"	f
+dboot_safe_pgm_write	avr_debug/bootloader/optiboot/src/bootapi.c	/^void dboot_safe_pgm_write(const void *ram_addr,$/;"	f
+debug_init	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	/^void debug_init(void)$/;"	f
+debug_init	avr_debug/avr8-stub/avr8-stub.c	/^void debug_init(void)$/;"	f
+debug_message	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	/^void debug_message(const char* msg)$/;"	f
+debug_message	avr_debug/avr8-stub/avr8-stub.c	/^void debug_message(const char* msg)$/;"	f
+detachInterrupt	avr_debug/arduino/1.6.5/WInterrupts.c	/^void detachInterrupt(uint8_t interruptNum) {$/;"	f
+detachInterrupt	avr_debug/arduino/1.8.5/WInterrupts.c	/^void detachInterrupt(uint8_t interruptNum) {$/;"	f
+do_spm	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	/^  const do_spm_t do_spm = (do_spm_t)((FLASHEND-1023+2)>>1);$/;"	v
+do_spm	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	/^  const do_spm_t do_spm = (do_spm_t)((FLASHEND-511+2)>>1);$/;"	v
+do_spm	avr_debug/avr8-stub/avr8-stub.c	/^  const do_spm_t do_spm = (do_spm_t)((FLASHEND-1023+2)>>1);$/;"	v
+do_spm	avr_debug/avr8-stub/avr8-stub.c	/^  const do_spm_t do_spm = (do_spm_t)((FLASHEND-511+2)>>1);$/;"	v
+do_spm_cli	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	/^static void do_spm_cli(optiboot_addr_t address, uint8_t command, uint16_t data)$/;"	f	file:
+do_spm_cli	avr_debug/avr8-stub/avr8-stub.c	/^static void do_spm_cli(optiboot_addr_t address, uint8_t command, uint16_t data)$/;"	f	file:
+do_spm_t	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	/^typedef void (*do_spm_t)(uint16_t address, uint8_t command, uint16_t data);$/;"	t	file:
+do_spm_t	avr_debug/avr8-stub/avr8-stub.c	/^typedef void (*do_spm_t)(uint16_t address, uint8_t command, uint16_t data);$/;"	t	file:
+flash_led	avr_debug/bootloader/optiboot/src/optiboot.c	/^void flash_led(uint8_t count) {$/;"	f
+flash_memory_write	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	124;"	d	file:
+flash_memory_write	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	127;"	d	file:
+flash_memory_write	avr_debug/avr8-stub/avr8-stub.c	124;"	d	file:
+flash_memory_write	avr_debug/avr8-stub/avr8-stub.c	127;"	d	file:
+function	avr_debug/examples/experimental/boot_api_app/main.c	/^uint16_t function(uint16_t a)$/;"	f
+function	avr_debug/examples/experimental/c/main.c	/^uint16_t function(uint16_t a)$/;"	f
+function	avr_debug/examples/mega2560/c_mega/c_mega.c	/^uint16_t function(uint16_t a)$/;"	f
+function	avr_debug/examples/mega328/c_uno/main.c	/^uint16_t function(uint16_t a)$/;"	f
+g_app_api_version	avr_debug/arduino/library/avr-debugger/src/app_api.c	/^uint8_t g_app_api_version = 0;$/;"	v
+g_app_api_version	avr_debug/avr8-stub/app_api.c	/^uint8_t g_app_api_version = 0;$/;"	v
+g_boot_write_cnt	avr_debug/arduino/library/avr-debugger/src/app_api.c	/^uint16_t g_boot_write_cnt;$/;"	v
+g_boot_write_cnt	avr_debug/avr8-stub/app_api.c	/^uint16_t g_boot_write_cnt;$/;"	v
+gdb_break	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	/^struct gdb_break$/;"	s	file:
+gdb_break	avr_debug/avr8-stub/avr8-stub.c	/^struct gdb_break$/;"	s	file:
+gdb_context	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	/^struct gdb_context$/;"	s	file:
+gdb_context	avr_debug/avr8-stub/avr8-stub.c	/^struct gdb_context$/;"	s	file:
+gdb_ctx	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	/^static struct gdb_context *gdb_ctx;$/;"	v	typeref:struct:gdb_context	file:
+gdb_ctx	avr_debug/avr8-stub/avr8-stub.c	/^static struct gdb_context *gdb_ctx;$/;"	v	typeref:struct:gdb_context	file:
+gdb_disable_swinterrupt	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	/^static inline void gdb_disable_swinterrupt()$/;"	f	file:
+gdb_disable_swinterrupt	avr_debug/avr8-stub/avr8-stub.c	/^static inline void gdb_disable_swinterrupt()$/;"	f	file:
+gdb_enable_swinterrupt	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	/^static inline void gdb_enable_swinterrupt()$/;"	f	file:
+gdb_enable_swinterrupt	avr_debug/avr8-stub/avr8-stub.c	/^static inline void gdb_enable_swinterrupt()$/;"	f	file:
+gdb_find_break	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	/^static struct gdb_break *gdb_find_break(Address_t rom_addr)$/;"	f	file:
+gdb_find_break	avr_debug/avr8-stub/avr8-stub.c	/^static struct gdb_break *gdb_find_break(Address_t rom_addr)$/;"	f	file:
+gdb_insert_breakpoint	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	/^static bool_t gdb_insert_breakpoint(Address_t rom_addr)$/;"	f	file:
+gdb_insert_breakpoint	avr_debug/avr8-stub/avr8-stub.c	/^static bool_t gdb_insert_breakpoint(Address_t rom_addr)$/;"	f	file:
+gdb_insert_remove_breakpoint	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	/^static void gdb_insert_remove_breakpoint(const uint8_t *buff)$/;"	f	file:
+gdb_insert_remove_breakpoint	avr_debug/avr8-stub/avr8-stub.c	/^static void gdb_insert_remove_breakpoint(const uint8_t *buff)$/;"	f	file:
+gdb_no_bootloder_prep	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	/^static void gdb_no_bootloder_prep(void) {$/;"	f	file:
+gdb_no_bootloder_prep	avr_debug/avr8-stub/avr8-stub.c	/^static void gdb_no_bootloder_prep(void) {$/;"	f	file:
+gdb_parse_packet	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	/^static bool_t gdb_parse_packet(const uint8_t *buff)$/;"	f	file:
+gdb_parse_packet	avr_debug/avr8-stub/avr8-stub.c	/^static bool_t gdb_parse_packet(const uint8_t *buff)$/;"	f	file:
+gdb_parse_packet	avr_debug/bootloader/optiboot/src/stub.c	/^static bool_t gdb_parse_packet(const uint8_t *buff)$/;"	f	file:
+gdb_read_memory	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	/^static void gdb_read_memory(const uint8_t *buff)$/;"	f	file:
+gdb_read_memory	avr_debug/avr8-stub/avr8-stub.c	/^static void gdb_read_memory(const uint8_t *buff)$/;"	f	file:
+gdb_read_registers	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	/^static void gdb_read_registers(void)$/;"	f	file:
+gdb_read_registers	avr_debug/avr8-stub/avr8-stub.c	/^static void gdb_read_registers(void)$/;"	f	file:
+gdb_remove_breakpoint	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	/^static void gdb_remove_breakpoint(Address_t rom_addr)$/;"	f	file:
+gdb_remove_breakpoint	avr_debug/avr8-stub/avr8-stub.c	/^static void gdb_remove_breakpoint(Address_t rom_addr)$/;"	f	file:
+gdb_remove_breakpoint_ptr	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	/^static void gdb_remove_breakpoint_ptr(struct gdb_break *breakp)$/;"	f	file:
+gdb_remove_breakpoint_ptr	avr_debug/avr8-stub/avr8-stub.c	/^static void gdb_remove_breakpoint_ptr(struct gdb_break *breakp)$/;"	f	file:
+gdb_send_buff	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	/^static void gdb_send_buff(const uint8_t *buff, uint8_t sz)$/;"	f	file:
+gdb_send_buff	avr_debug/avr8-stub/avr8-stub.c	/^static void gdb_send_buff(const uint8_t *buff, uint8_t sz)$/;"	f	file:
+gdb_send_buff	avr_debug/bootloader/optiboot/src/stub.c	/^static void gdb_send_buff(const uint8_t *buff, uint8_t sz)$/;"	f	file:
+gdb_send_reply	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	/^static void gdb_send_reply(const char *reply)$/;"	f	file:
+gdb_send_reply	avr_debug/avr8-stub/avr8-stub.c	/^static void gdb_send_reply(const char *reply)$/;"	f	file:
+gdb_send_reply	avr_debug/bootloader/optiboot/src/stub.c	/^static void gdb_send_reply(const char *reply)$/;"	f	file:
+gdb_send_state	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	/^static void gdb_send_state(uint8_t signo)$/;"	f	file:
+gdb_send_state	avr_debug/avr8-stub/avr8-stub.c	/^static void gdb_send_state(uint8_t signo)$/;"	f	file:
+gdb_str_packetsz	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	/^static char* gdb_str_packetsz = "PacketSize=" STR_VAL(AVR8_MAX_BUFF_HEX);$/;"	v	file:
+gdb_str_packetsz	avr_debug/avr8-stub/avr8-stub.c	/^static char* gdb_str_packetsz = "PacketSize=" STR_VAL(AVR8_MAX_BUFF_HEX);$/;"	v	file:
+gdb_update_breakpoints	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	/^static void gdb_update_breakpoints(void)$/;"	f	file:
+gdb_update_breakpoints	avr_debug/avr8-stub/avr8-stub.c	/^static void gdb_update_breakpoints(void)$/;"	f	file:
+gdb_write_binary	avr_debug/bootloader/optiboot/src/stub.c	/^static void gdb_write_binary(const uint8_t *buff \/*, uint16_t size*\/) {$/;"	f	file:
+gdb_write_memory	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	/^static void gdb_write_memory(const uint8_t *buff)$/;"	f	file:
+gdb_write_memory	avr_debug/avr8-stub/avr8-stub.c	/^static void gdb_write_memory(const uint8_t *buff)$/;"	f	file:
+gdb_write_registers	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	/^static void gdb_write_registers(const uint8_t *buff)$/;"	f	file:
+gdb_write_registers	avr_debug/avr8-stub/avr8-stub.c	/^static void gdb_write_registers(const uint8_t *buff)$/;"	f	file:
+getDebugChar	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	/^static uint8_t getDebugChar(void)$/;"	f	file:
+getDebugChar	avr_debug/avr8-stub/avr8-stub.c	/^static uint8_t getDebugChar(void)$/;"	f	file:
+getDebugChar	avr_debug/bootloader/optiboot/src/stub.c	/^static uint8_t getDebugChar(void)$/;"	f	file:
+getNch	avr_debug/bootloader/optiboot/src/optiboot.c	/^void getNch(uint8_t count) {$/;"	f
+get_optiboot_major	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	/^static uint8_t get_optiboot_major()$/;"	f	file:
+get_optiboot_major	avr_debug/avr8-stub/avr8-stub.c	/^static uint8_t get_optiboot_major()$/;"	f	file:
+getch	avr_debug/bootloader/optiboot/src/optiboot.c	/^uint8_t getch(void) {$/;"	f
+handle_exception	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	/^static void handle_exception(void)$/;"	f	file:
+handle_exception	avr_debug/avr8-stub/avr8-stub.c	/^static void handle_exception(void)$/;"	f	file:
+hex2nib	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	/^static uint8_t hex2nib(uint8_t hex)$/;"	f	file:
+hex2nib	avr_debug/avr8-stub/avr8-stub.c	/^static uint8_t hex2nib(uint8_t hex)$/;"	f	file:
+hex2nib	avr_debug/bootloader/optiboot/src/stub.c	/^static uint8_t hex2nib(uint8_t hex)$/;"	f	file:
+id	avr_debug/arduino/library/avr-debugger/src/app_api.c	/^        uint8_t id[3];$/;"	m	struct:avrdbgboot_jump_table_s	file:
+id	avr_debug/avr8-stub/app_api.c	/^        uint8_t id[3];$/;"	m	struct:avrdbgboot_jump_table_s	file:
+id	avr_debug/bootloader/optiboot/src/bootapi.h	/^        uint8_t id[3];$/;"	m	struct:avrdbgboot_jump_table_s
+init_timer	avr_debug/examples/experimental/boot_api_app/main.c	/^static void init_timer(void)$/;"	f	file:
+intFunc	avr_debug/arduino/1.6.5/WInterrupts.c	/^static volatile voidFuncPtr intFunc[EXTERNAL_NUM_INTERRUPTS];$/;"	v	file:
+intFunc	avr_debug/arduino/1.8.5/WInterrupts.c	/^static volatile voidFuncPtr intFunc[EXTERNAL_NUM_INTERRUPTS] = {$/;"	v	file:
+la_init	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	/^void la_init(void)$/;"	f
+la_init	avr_debug/avr8-stub/avr8-stub.c	/^void la_init(void)$/;"	f
+la_pause	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	/^void la_pause(void)$/;"	f
+la_pause	avr_debug/avr8-stub/avr8-stub.c	/^void la_pause(void)$/;"	f
+la_send	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	/^void la_send(uint8_t digit)$/;"	f
+la_send	avr_debug/avr8-stub/avr8-stub.c	/^void la_send(uint8_t digit)$/;"	f
+loop	avr_debug/examples/mega2560/blink_mega/blink.cpp	/^void loop(void)$/;"	f
+loop	avr_debug/examples/mega328/blink_uno/blink.cpp	/^void loop(void)$/;"	f
 main	Oscillator.c	/^int main (void) $/;"	f
+main	avr_debug/bootloader/optiboot/src/optiboot.c	/^int main(void) {$/;"	f
+main	avr_debug/examples/experimental/boot_api_app/main.c	/^int main(void)$/;"	f
+main	avr_debug/examples/experimental/c/main.c	/^int main(void)$/;"	f
+main	avr_debug/examples/mega2560/c_mega/c_mega.c	/^int main(void)$/;"	f
+main	avr_debug/examples/mega328/c_uno/main.c	/^int main(void)$/;"	f
+my_memcpy_P	avr_debug/bootloader/optiboot/src/stub.c	/^static void my_memcpy_P(uint8_t *dest, const uint8_t *src, size_t cnt) {$/;"	f	file:
+my_strlen_P	avr_debug/bootloader/optiboot/src/stub.c	/^static uint8_t my_strlen_P(const uint8_t *str) {$/;"	f	file:
+mydelay	avr_debug/examples/experimental/boot_api_app/main.c	/^void mydelay(void)$/;"	f
+mydelay	avr_debug/examples/experimental/c/main.c	/^void mydelay(void)$/;"	f
+mylongdelay	avr_debug/examples/experimental/boot_api_app/main.c	/^void mylongdelay(void) {$/;"	f
+nib2hex	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	564;"	d	file:
+nib2hex	avr_debug/avr8-stub/avr8-stub.c	564;"	d	file:
+nib2hex	avr_debug/bootloader/optiboot/src/stub.c	64;"	d	file:
+nothing	avr_debug/arduino/1.8.5/WInterrupts.c	/^static void nothing(void) {$/;"	f	file:
+opcode	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	/^	uint16_t opcode;$/;"	m	struct:gdb_break	file:
+opcode	avr_debug/avr8-stub/avr8-stub.c	/^	uint16_t opcode;$/;"	m	struct:gdb_break	file:
+optiboot_addr_t	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	/^  typedef uint16_t optiboot_addr_t;$/;"	t	file:
+optiboot_addr_t	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	/^  typedef uint32_t optiboot_addr_t;$/;"	t	file:
+optiboot_addr_t	avr_debug/avr8-stub/avr8-stub.c	/^  typedef uint16_t optiboot_addr_t;$/;"	t	file:
+optiboot_addr_t	avr_debug/avr8-stub/avr8-stub.c	/^  typedef uint32_t optiboot_addr_t;$/;"	t	file:
+optiboot_page_erase	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	/^static void optiboot_page_erase(optiboot_addr_t address)$/;"	f	file:
+optiboot_page_erase	avr_debug/avr8-stub/avr8-stub.c	/^static void optiboot_page_erase(optiboot_addr_t address)$/;"	f	file:
+optiboot_page_fill	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	/^static void optiboot_page_fill(optiboot_addr_t address, uint16_t data)$/;"	f	file:
+optiboot_page_fill	avr_debug/avr8-stub/avr8-stub.c	/^static void optiboot_page_fill(optiboot_addr_t address, uint16_t data)$/;"	f	file:
+optiboot_page_read_raw	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	/^static void optiboot_page_read_raw(optiboot_addr_t address, uint8_t output_data[])$/;"	f	file:
+optiboot_page_read_raw	avr_debug/avr8-stub/avr8-stub.c	/^static void optiboot_page_read_raw(optiboot_addr_t address, uint8_t output_data[])$/;"	f	file:
+optiboot_page_write	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	/^static void optiboot_page_write(optiboot_addr_t address)$/;"	f	file:
+optiboot_page_write	avr_debug/avr8-stub/avr8-stub.c	/^static void optiboot_page_write(optiboot_addr_t address)$/;"	f	file:
+optiboot_safe_pgm_write	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	/^static void optiboot_safe_pgm_write(const void *ram_addr,$/;"	f	file:
+optiboot_safe_pgm_write	avr_debug/avr8-stub/avr8-stub.c	/^static void optiboot_safe_pgm_write(const void *ram_addr,$/;"	f	file:
+optiboot_version	avr_debug/bootloader/optiboot/src/optiboot.c	/^__attribute__((section(".version"))) const uint16_t optiboot_version = OPTIBOOT_MAJVER*256+OPTIBOOT_MINVER;$/;"	v
+parse_hex	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	/^static uint8_t parse_hex(const uint8_t *buff, uint32_t *hex)$/;"	f	file:
+parse_hex	avr_debug/avr8-stub/avr8-stub.c	/^static uint8_t parse_hex(const uint8_t *buff, uint32_t *hex)$/;"	f	file:
+parse_hex	avr_debug/bootloader/optiboot/src/stub.c	/^static uint8_t parse_hex(const uint8_t *buff, uint32_t *hex)$/;"	f	file:
+pc	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	/^	Address_t pc; \/* PC is 17-bit on ATmega2560*\/$/;"	m	struct:gdb_context	file:
+pc	avr_debug/avr8-stub/avr8-stub.c	/^	Address_t pc; \/* PC is 17-bit on ATmega2560*\/$/;"	m	struct:gdb_context	file:
+ptr	avr_debug/arduino/library/avr-debugger/src/app_api.c	/^        uint16_t ptr[];$/;"	m	struct:avrdbgboot_jump_table_s	file:
+ptr	avr_debug/avr8-stub/app_api.c	/^        uint16_t ptr[];$/;"	m	struct:avrdbgboot_jump_table_s	file:
+ptr	avr_debug/bootloader/optiboot/src/bootapi.h	/^        uint16_t ptr[];$/;"	m	struct:avrdbgboot_jump_table_s
+putDebugChar	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	/^static void putDebugChar(uint8_t c)$/;"	f	file:
+putDebugChar	avr_debug/avr8-stub/avr8-stub.c	/^static void putDebugChar(uint8_t c)$/;"	f	file:
+putDebugChar	avr_debug/bootloader/optiboot/src/stub.c	/^static void putDebugChar(uint8_t c)$/;"	f	file:
+putch	avr_debug/bootloader/optiboot/src/optiboot.c	/^void putch(char ch) {$/;"	f
+quickcheck	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	/^static inline void quickcheck (void)$/;"	f	file:
+quickcheck	avr_debug/avr8-stub/avr8-stub.c	/^static inline void quickcheck (void)$/;"	f	file:
+regs	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	/^static unsigned char regs[GDB_NUMREGBYTES];	\/* Copy of all registers *\/$/;"	v	file:
+regs	avr_debug/avr8-stub/avr8-stub.c	/^static unsigned char regs[GDB_NUMREGBYTES];	\/* Copy of all registers *\/$/;"	v	file:
+restore_regs	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	/^static inline void restore_regs (void)$/;"	f	file:
+restore_regs	avr_debug/avr8-stub/avr8-stub.c	/^static inline void restore_regs (void)$/;"	f	file:
+result	avr_debug/examples/experimental/boot_api_app/main.c	/^uint16_t result;$/;"	v
+result	avr_debug/examples/experimental/c/main.c	/^uint16_t result;$/;"	v
+result	avr_debug/examples/mega2560/c_mega/c_mega.c	/^uint16_t result;$/;"	v
+result	avr_debug/examples/mega328/c_uno/main.c	/^uint16_t result;$/;"	v
+rstVect	avr_debug/bootloader/optiboot/src/optiboot.c	313;"	d	file:
+run_user_app	avr_debug/bootloader/optiboot/src/stub.c	/^void run_user_app(void) {$/;"	f
+safe_pgm_read_byte	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	/^static uint8_t safe_pgm_read_byte(uint32_t rom_addr_b)$/;"	f	file:
+safe_pgm_read_byte	avr_debug/avr8-stub/avr8-stub.c	/^static uint8_t safe_pgm_read_byte(uint32_t rom_addr_b)$/;"	f	file:
+safe_pgm_read_word	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	/^static uint16_t safe_pgm_read_word(uint32_t rom_addr_b)$/;"	f	file:
+safe_pgm_read_word	avr_debug/avr8-stub/avr8-stub.c	/^static uint16_t safe_pgm_read_word(uint32_t rom_addr_b)$/;"	f	file:
+safe_pgm_read_word	avr_debug/bootloader/optiboot/src/bootapi.c	/^static uint16_t safe_pgm_read_word(uint32_t rom_addr_b)$/;"	f	file:
+save_regs1	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	/^static inline void save_regs1 (void)$/;"	f	file:
+save_regs1	avr_debug/avr8-stub/avr8-stub.c	/^static inline void save_regs1 (void)$/;"	f	file:
+save_regs2	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	/^static inline void save_regs2 (void)$/;"	f	file:
+save_regs2	avr_debug/avr8-stub/avr8-stub.c	/^static inline void save_regs2 (void)$/;"	f	file:
+setup	avr_debug/examples/mega2560/blink_mega/blink.cpp	/^void setup(void)$/;"	f
+setup	avr_debug/examples/mega328/blink_uno/blink.cpp	/^void setup(void)$/;"	f
+show_la_breaks	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	/^void show_la_breaks(uint8_t typ)$/;"	f
+show_la_breaks	avr_debug/avr8-stub/avr8-stub.c	/^void show_la_breaks(uint8_t typ)$/;"	f
+singlestep_enabled	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	/^    uint8_t singlestep_enabled; \/\/ made it the first field so that addressing this field is easy!$/;"	m	struct:gdb_context	file:
+singlestep_enabled	avr_debug/avr8-stub/avr8-stub.c	/^    uint8_t singlestep_enabled; \/\/ made it the first field so that addressing this field is easy!$/;"	m	struct:gdb_context	file:
+sp	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	/^	uint16_t sp;$/;"	m	struct:gdb_context	file:
+sp	avr_debug/avr8-stub/avr8-stub.c	/^	uint16_t sp;$/;"	m	struct:gdb_context	file:
+stack	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	/^static char stack[GDB_STACKSIZE];			\/* Internal stack used by the stub *\/$/;"	v	file:
+stack	avr_debug/avr8-stub/avr8-stub.c	/^static char stack[GDB_STACKSIZE];			\/* Internal stack used by the stub *\/$/;"	v	file:
+status	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	/^	uint8_t status;	\/* status of the breakpoint in flash, see below *\/$/;"	m	struct:gdb_break	file:
+status	avr_debug/avr8-stub/avr8-stub.c	/^	uint8_t status;	\/* status of the breakpoint in flash, see below *\/$/;"	m	struct:gdb_break	file:
+target_running	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	/^	uint8_t target_running;		\/* 0 if target program is stopped *\/$/;"	m	struct:gdb_context	file:
+target_running	avr_debug/avr8-stub/avr8-stub.c	/^	uint8_t target_running;		\/* 0 if target program is stopped *\/$/;"	m	struct:gdb_context	file:
+test_check_stack_usage	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	/^uint8_t test_check_stack_usage(void)$/;"	f
+test_check_stack_usage	avr_debug/avr8-stub/avr8-stub.c	/^uint8_t test_check_stack_usage(void)$/;"	f
+test_print_hex	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	/^static void test_print_hex(const char* text, uint16_t num){$/;"	f	file:
+test_print_hex	avr_debug/avr8-stub/avr8-stub.c	/^static void test_print_hex(const char* text, uint16_t num){$/;"	f	file:
+tmp_buff	avr_debug/bootloader/optiboot/src/stub.c	/^uint8_t tmp_buff[AVR8_MAX_BUFF];$/;"	v
+uartDelay	avr_debug/bootloader/optiboot/src/optiboot.c	/^void uartDelay() {$/;"	f
+uart_init	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	/^static void uart_init(void)$/;"	f	file:
+uart_init	avr_debug/avr8-stub/avr8-stub.c	/^static void uart_init(void)$/;"	f	file:
+ver	avr_debug/arduino/library/avr-debugger/src/app_api.c	/^        uint8_t ver;$/;"	m	struct:avrdbgboot_jump_table_s	file:
+ver	avr_debug/avr8-stub/app_api.c	/^        uint8_t ver;$/;"	m	struct:avrdbgboot_jump_table_s	file:
+ver	avr_debug/bootloader/optiboot/src/bootapi.h	/^        uint8_t ver;$/;"	m	struct:avrdbgboot_jump_table_s
+verifySpace	avr_debug/bootloader/optiboot/src/optiboot.c	/^void verifySpace() {$/;"	f
+watchdogConfig	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	/^void watchdogConfig(uint8_t x) {$/;"	f
+watchdogConfig	avr_debug/avr8-stub/avr8-stub.c	/^void watchdogConfig(uint8_t x) {$/;"	f
+watchdogConfig	avr_debug/bootloader/optiboot/src/optiboot.c	/^void watchdogConfig(uint8_t x) {$/;"	f
+watchdogConfig	avr_debug/examples/experimental/boot_api_app/main.c	/^void watchdogConfig(uint8_t x) {$/;"	f
+watchdogReset	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	/^void watchdogReset() {$/;"	f
+watchdogReset	avr_debug/avr8-stub/avr8-stub.c	/^void watchdogReset() {$/;"	f
+watchdogReset	avr_debug/bootloader/optiboot/src/optiboot.c	/^void watchdogReset() {$/;"	f
+watchdogReset	avr_debug/examples/experimental/boot_api_app/main.c	/^void watchdogReset() {$/;"	f
+wcheck_stack_usage	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	/^static uint8_t wcheck_stack_usage(uint8_t* buff, uint16_t size )$/;"	f	file:
+wcheck_stack_usage	avr_debug/avr8-stub/avr8-stub.c	/^static uint8_t wcheck_stack_usage(uint8_t* buff, uint16_t size )$/;"	f	file:
+wdtVect	avr_debug/bootloader/optiboot/src/optiboot.c	314;"	d	file:
+wfill_stack_canary	avr_debug/arduino/library/avr-debugger/src/avr8-stub.c	/^static void wfill_stack_canary(uint8_t* buff, uint16_t size)$/;"	f	file:
+wfill_stack_canary	avr_debug/avr8-stub/avr8-stub.c	/^static void wfill_stack_canary(uint8_t* buff, uint16_t size)$/;"	f	file:

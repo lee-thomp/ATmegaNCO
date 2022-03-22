@@ -11,6 +11,10 @@
 #define		ADC_CHANNEL_MAGIC		ADC0
 #define		ADC_PRESCALE_MAGIC		(2)
 
+#define		VOICE_DEFAULTS	{							\
+							.note_Voct 			= 0u,	\
+							.phaseIncrement		= 0u	}
+
 /* ======== Macro Magic; Do Not Touch ======= */ 
 #ifdef ADC_CHANNEL_MAGIC
 	#if (ADC0 == ADC_CHANNEL_MAGIC)

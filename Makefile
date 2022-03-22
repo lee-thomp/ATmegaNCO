@@ -22,7 +22,7 @@ ${PROG}.o : ${PROG}.c ${PROG}.h ${PROG}Config.h
 avr8-stub.o : ./avr_debug/avr8-stub/avr8-stub.c
 	${CC} -c -std=gnu99 -DF_CPU=${FCPU} -Wall ${CFLAGS} ./avr_debug/avr8-stub/avr8-stub.c -o avr8-stub.o
 
-install : ${PROG}.hex
+flash : ${PROG}.hex
 	avrdude -F -V -c arduino -p ${DEVICE} -P ${PORT} -b 115200 -U flash:w:${PROG}.hex
 
 clean:
