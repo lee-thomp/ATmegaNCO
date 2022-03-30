@@ -7,15 +7,11 @@
  */
 
 /* ========== Module Configuration ========== */ 
-#define		ADC_REF_SELECT			(1 << 6u)
+#define		ADC_REF_SELECT			(1u << 6u)
 #define		ADC_CHANNEL_MAGIC		ADC0
 #define		ADC_PRESCALE_MAGIC		(2)
 
-#define		VOICE_DEFAULTS	{							\
-							.note_Voct 			= 0u,	\
-							.phaseIncrement		= 0u	}
-
-/* ======== Macro Magic; Do Not Touch ======= */ 
+/* ======== Macro Magic, Do Not Touch ======= */ 
 #ifdef ADC_CHANNEL_MAGIC
 	#if (ADC0 == ADC_CHANNEL_MAGIC)
 		#define	ADC_CHANNEL_SELECT	(0x00u)
